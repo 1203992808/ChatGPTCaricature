@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "Z Image Turbo 案例展示",
+    "description": "浏览 Z Image Turbo 的图像案例与提示词，快速生成高质量 AI 图片。"
+  },
+  "showcases-flow": {
+    "id": "showcases-flow",
+    "sr_only_title": "Z Image Turbo 案例展示",
+    "title": "Z Image Turbo 图像案例",
+    "description": "精选 Z Image Turbo 生成的图像案例与提示词，快速获得清晰、细节丰富的作品。"
+  },
+  "showcases": {
+    "id": "showcases",
+    "groups": [
+      {
+        "name": "all",
+        "title": "全部"
+      },
+      {
+        "name": "ai-chatbot",
+        "title": "人像"
+      },
+      {
+        "name": "ai-image",
+        "title": "风景"
+      },
+      {
+        "name": "ai-video",
+        "title": "建筑"
+      },
+      {
+        "name": "ai-audio",
+        "title": "产品"
+      },
+      {
+        "name": "ai-music",
+        "title": "插画"
+      },
+      {
+        "name": "ai-coding",
+        "title": "概念艺术"
+      },
+      {
+        "name": "other",
+        "title": "其他"
+      }
+    ],
+    "sr_only_title": "Z Image Turbo 案例展示",
+    "title": "Z Image Turbo 图像案例与提示词合集",
+    "description": "面向营销、产品与创作场景的高质量图像示例。",
+    "items": [
+      {
+        "title": "蓝调时刻人像",
+        "description": "肤色自然、虚化柔和的人像表现。",
+        "url": "https://thinkany.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/7.png",
+          "alt": "Z Image Turbo 案例 1"
+        },
+        "group": "ai-chatbot"
+      },
+      {
+        "title": "城市蓝调夜景",
+        "description": "高光干净、阴影深邃的城市氛围。",
+        "url": "https://heybeauty.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/5.png",
+          "alt": "Z Image Turbo 案例 2"
+        },
+        "group": "ai-image"
+      },
+      {
+        "title": "极简建筑线条",
+        "description": "几何构图与光影层次清晰。",
+        "url": "https://aiwallpaper.shop",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/1.png",
+          "alt": "Z Image Turbo 案例 3"
+        },
+        "group": "ai-image"
+      },
+      {
+        "title": "产品棚拍质感",
+        "description": "材质细节与反射控制精准。",
+        "url": "https://aicover.design",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/2.png",
+          "alt": "Z Image Turbo 案例 4"
+        },
+        "group": "ai-image"
+      },
+      {
+        "title": "时尚人像大片",
+        "description": "面料纹理与光比更真实。",
+        "url": "https://gpts.works",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/3.png",
+          "alt": "Z Image Turbo 案例 5"
+        },
+        "group": "other"
+      },
+      {
+        "title": "植物微距细节",
+        "description": "叶脉清晰、景深自然过渡。",
+        "url": "https://melodis.co",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/4.png",
+          "alt": "Z Image Turbo 案例 6"
+        },
+        "group": "ai-music"
+      },
+      {
+        "title": "黄金时刻风景",
+        "description": "暖色渐变与自然薄雾层次。",
+        "url": "https://pagen.so",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/6.png",
+          "alt": "Z Image Turbo 案例 7"
+        },
+        "group": "ai-coding"
+      },
+      {
+        "title": "奇幻场景设定",
+        "description": "电影感色彩与空间氛围。",
+        "url": "https://sorafm.trys.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/8.png",
+          "alt": "Z Image Turbo 案例 8"
+        },
+        "group": "ai-video"
+      },
+      {
+        "title": "抽象光轨",
+        "description": "流动光线与色彩平衡。",
+        "url": "https://podlm.ai",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/cases/9.png",
+          "alt": "Z Image Turbo 案例 9"
+        },
+        "group": "ai-audio"
+      }
+    ]
+  }
+}

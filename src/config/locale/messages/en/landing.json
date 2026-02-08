@@ -1,0 +1,489 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Z Image Turbo",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Z Image logo"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Create",
+          "url": "/create",
+          "icon": "Zap"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Showcases",
+          "url": "/showcases",
+          "icon": "Box"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Billing",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Activity",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": false
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Z Image Turbo AI Image Generator",
+    "description": "The z image turbo system is a fast z image ai text-to-image model built on the z image model, delivering photorealistic results, strong prompt adherence, and multilingual text rendering in seconds.",
+     "announcement": {
+      "badge": "New",
+      "title": "Created By SOLOSTACK LABS LTD"
+    },
+    "buttons": [
+      {
+        "title": "Try it now",
+        "icon": "Zap",
+        "url": "/create",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View examples",
+        "icon": "BookOpenText",
+        "url": "/showcases",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_avatars": false,
+    "avatars_tip": "999+ creators use the model for fast text-to-image",
+    "show_award": false,
+    "background_image": {
+      "src": "/imgs/bg/bg.jpg",
+      "alt": "hero"
+    }
+  },
+  "showcases-flow": {
+    "id": "showcases-flow",
+    "title": "Z Image Turbo Showcases",
+    "description": "Representative results for photorealism, typography, and style control.",
+    "items": [
+      {
+        "title": "Showcase 1",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/1.jpeg",
+          "alt": "Showcase 1"
+        }
+      },
+      {
+        "title": "Showcase 2",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/2.jpeg",
+          "alt": "Showcase 2"
+        }
+      },
+      {
+        "title": "Showcase 3",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/3.jpeg",
+          "alt": "Showcase 3"
+        }
+      },
+      {
+        "title": "Showcase 4",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/4.jpeg",
+          "alt": "Showcase 4"
+        }
+      },
+      {
+        "title": "Showcase 5",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/5.jpeg",
+          "alt": "Showcase 5"
+        }
+      },
+      {
+        "title": "Showcase 6",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/6.jpeg",
+          "alt": "Showcase 6"
+        }
+      },
+      {
+        "title": "Showcase 7",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/7.jpeg",
+          "alt": "Showcase 7"
+        }
+      },
+      {
+        "title": "Showcase 8",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/8.jpeg",
+          "alt": "Showcase 8"
+        }
+      },
+      {
+        "title": "Showcase 9",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/9.jpeg",
+          "alt": "Showcase 9"
+        }
+      },
+      {
+        "title": "Showcase 10",
+        "description": "Text-to-image example",
+        "image": {
+          "src": "/imgs/showcases/10.jpeg",
+          "alt": "Showcase 10"
+        }
+      }
+    ]
+  },
+  "logos": {
+    "hidden": true
+  },
+  "introduce": {
+    "block": "features-list",
+    "id": "introduce",
+    "title": "What is Z Image Turbo?",
+    "label": "About",
+    "description": "Z Image Turbo is a fast AI-powered image generation platform. Create stunning, photorealistic images from text prompts or transform existing ones in seconds.",
+    "image": {
+      "src": "/imgs/showcases/image.png",
+      "alt": "Z Image Turbo Platform"
+    },
+    "items": [
+      {
+        "title": "Lightning-fast Generation",
+        "description": "High-quality results with only 8 inference steps, enabling near-instant image creation.",
+        "icon": "RiFlashlightLine",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "Fast generation"
+        }
+      },
+      {
+        "title": "Photorealistic Quality",
+        "description": "Lifelike lighting, materials, and textures for product, portrait, and scene generation.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "/imgs/features/2.png",
+          "alt": "Photorealistic quality"
+        }
+      },
+      {
+        "title": "Multilingual Text Rendering",
+        "description": "Render clear text across languages with optimized English and Chinese support.",
+        "icon": "RiTranslate2",
+        "image": {
+          "src": "/imgs/features/3.png",
+          "alt": "Multilingual rendering"
+        }
+      },
+      {
+        "title": "Strong Prompt Adherence",
+        "description": "Complex prompts maintain consistent composition and style for reliable output.",
+        "icon": "RiMagicLine",
+        "image": {
+          "src": "/imgs/features/4.png",
+          "alt": "Prompt adherence"
+        }
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "benefits": {
+    "hidden": true
+  },
+  "usage": {
+    "hidden": true
+  },
+  "features": {
+    "id": "features",
+    "title": "Key Features of Z Image Turbo",
+    "description": "Everything you need for fast text-to-image generation with a compact Z Image model focused on speed and quality.",
+    "items": [
+      {
+        "title": "Ultra-fast 8-step generation",
+        "description": "The model reaches high-quality results with only 8 NFEs, enabling near-instant image creation.",
+        "icon": "RiMagicLine"
+      },
+      {
+        "title": "Photorealistic detail",
+        "description": "Deliver lifelike lighting, materials, and textures for product, portrait, and scene generation.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "Multilingual text rendering",
+        "description": "Render clear text across languages and support multilingual layouts.",
+        "icon": "RiLandscapeLine"
+      },
+      {
+        "title": "Strong instruction following",
+        "description": "The Z Image model follows complex prompts and keeps composition and style consistent.",
+        "icon": "Layers"
+      },
+      {
+        "title": "Efficient 6B distilled model",
+        "description": "A lightweight Z Image AI stack that fits 16GB VRAM-class devices without sacrificing quality.",
+        "icon": "RiAspectRatioLine"
+      },
+      {
+        "title": "Creative control",
+        "description": "Guide style, mood, and camera cues to iterate quickly without starting over.",
+        "icon": "RiFlashlightLine"
+      }
+    ]
+  },
+  "stats": {
+    "hidden": true
+  },
+  "testimonials": {
+    "hidden": true
+  },
+  "faq": {
+    "id": "faq",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What is Z Image Turbo?",
+        "answer": "It is a distilled 6B z image model designed for fast text-to-image generation with photorealistic quality and multilingual text rendering."
+      },
+      {
+        "question": "How fast is the model?",
+        "answer": "It reaches strong results in 8 NFEs, enabling sub-second latency on modern GPUs and quick outputs on consumer hardware."
+      },
+      {
+        "question": "What does Z Image AI mean here?",
+        "answer": "Z Image AI refers to the Z-Image family of models; this is the speed-optimized variant for production use."
+      },
+      {
+        "question": "Which models power text-to-image and image-to-image?",
+        "answer": "Text-to-image uses Z Image Turbo. Image-to-image uses Seedream 4.5. We also rely on third-party model and infrastructure providers to deliver the service. Z Image Turbo is an independent product and is not affiliated with or endorsed by third-party model providers."
+      },
+      {
+        "question": "How does it compare with qwen image?",
+        "answer": "If you are evaluating qwen image, test the same prompts and compare speed, fidelity, and text rendering to choose the best fit."
+      },
+      {
+        "question": "Can I use outputs commercially?",
+        "answer": "Yes, subject to your content rights and applicable licensing terms."
+      },
+      {
+        "question": "How do I craft effective prompts?",
+        "answer": "Start with subject and style, add lighting and camera cues, then specify layout or text to guide the model."
+      }
+    ]
+  },
+  "cta": {
+    "id": "cta",
+    "title": "Create with Z Image Turbo",
+    "description": "Generate photorealistic images in seconds.",
+    "buttons": [
+      {
+        "title": "Try Z Image Turbo",
+        "url": "/create",
+        "target": "_self",
+        "icon": "Wand"
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "subscribe": {
+    "hidden": true
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Z Image Turbo",
+      "description": "A fast text-to-image generator built on the Z-Image family, combining speed, quality, and multilingual text rendering.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Z Image Turbo"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Create",
+              "url": "/create",
+              "target": "_self"
+            },
+            {
+              "title": "Features",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "Showcases",
+              "url": "/#showcases",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Prompts",
+          "children": [
+            {
+              "title": "3D Digital Human Comics",
+              "url": "/create?prompt=3d-digital-human-comics",
+              "target": "_self"
+            },
+            {
+              "title": "Vertical fisheye selfie",
+              "url": "/create?prompt=vertical-fisheye-selfie",
+              "target": "_self"
+            },
+            {
+              "title": "GTA VICE CITY",
+              "url": "/create?prompt=gta-vice-city",
+              "target": "_self"
+            },
+            {
+              "title": "Photo restoration",
+              "url": "/create?prompt=photo-restoration",
+              "target": "_self"
+            },
+            {
+              "title": "3D caricature of celebrity",
+              "url": "/create?prompt=3d-caricature-of-celebrity",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Friend Links",
+          "children": [
+            {
+              "title": "Dofollow.Tools",
+              "url": "https://dofollow.tools",
+              "target": "_blank",
+              "image": {
+                "src": "https://dofollow.tools/badge/badge_dark.svg",
+                "alt": "Featured on Dofollow.Tools",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "Wired Business",
+              "url": "https://wired.business",
+              "target": "_blank",
+              "image": {
+                "src": "https://wired.business/badge0-dark.svg",
+                "alt": "Featured on Wired Business",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "Twelve Tools",
+              "url": "https://twelve.tools",
+              "target": "_blank",
+              "image": {
+                "src": "https://twelve.tools/badge0-dark.svg",
+                "alt": "Featured on Twelve Tools",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "ShowMeBestAI Dark",
+              "url": "https://showmebest.ai",
+              "target": "_blank",
+              "image": {
+                "src": "https://showmebest.ai/badge/feature-badge-dark.webp",
+                "alt": "Featured on ShowMeBestAI",
+                "width": 220,
+                "height": 60,
+                "className": "w-[220px] h-auto"
+              }
+            },
+            {
+              "title": "Startup Fame",
+              "url": "https://startupfa.me/s/z-image-turbo-5?utm_source=zimageturbo.site",
+              "target": "_blank",
+              "image": {
+                "src": "https://startupfa.me/badges/featured-badge-small.webp",
+                "alt": "Z Image Turbo - Featured on Startup Fame",
+                "width": 224,
+                "height": 36,
+                "className": "w-[224px] h-auto"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:yzshi123@gmail.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "yzshi123@gmail.com",
+          "url": "mailto:yzshi123@gmail.com"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": false
+  }
+}

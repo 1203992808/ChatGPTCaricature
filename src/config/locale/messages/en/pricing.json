@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "Z Image Turbo Price",
+    "description": "Start with a plan to generate images with Z Image Turbo model."
+  },
+  "pricing": {
+    "id": "pricing",
+    "sr_only_title": "Z Image Turbo Pricing",
+    "title": "Z Image Turbo Plan",
+    "description": "Get started to generate images with Z Image Turbo model.",
+    "groups": [
+      {
+        "name": "one-time",
+        "title": "Pay as you go"
+      },
+      {
+        "name": "monthly",
+        "title": "Monthly",
+        "is_featured": true
+      },
+      {
+        "name": "yearly",
+        "title": "Annually",
+        "label": "save 16.67%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Credits Package",
+        "description": "Start any time as you need.",
+        "features_title": "Includes",
+        "features": [
+          "800 credits, valid for 1 year",
+          "Text-to-image and image-to-image generation",
+          "High-quality images with Z Image Turbo models",
+          "Free download of generated images"
+        ],
+        "interval": "one-time",
+        "amount": 990,
+        "currency": "USD",
+        "price": "$9.9",
+        "original_price": "$16.9",
+        "unit": "/ 800 credits",
+        "is_featured": true,
+        "tip": "One-time payment",
+        "button": {
+          "title": "Buy Credits",
+          "url": "/#pricing",
+          "icon": "RiBankCardLine"
+        },
+        "product_id": "credits-package",
+        "product_name": "Credits Package",
+        "credits": 800,
+        "valid_days": 365,
+        "group": "one-time"
+      },
+      {
+        "title": "Starter Plan",
+        "description": "Auto renew monthly to get credits.",
+        "features_title": "Includes",
+        "features": [
+          "1000 credits, valid for 1 month",
+          "Text-to-image and image-to-image generation",
+          "High-quality images with Z Image Turbo models",
+          "Free download of generated images"
+        ],
+        "interval": "month",
+        "amount": 990,
+        "currency": "USD",
+        "price": "$9.9",
+        "original_price": "$16.9",
+        "unit": "/ month",
+        "is_featured": true,
+        "tip": "Subscription can be canceled anytime!",
+        "button": {
+          "title": "Subscribe Plan",
+          "url": "/#pricing",
+          "icon": "RiBankCardLine"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "Starter Plan Monthly",
+        "credits": 1000,
+        "valid_days": 30,
+        "group": "monthly",
+        "plan_name": "Starter"
+      },
+      {
+        "title": "Premium Plan",
+        "description": "Around $8.2 / month, save 16.67% compared to monthly plan.",
+        "features_title": "Includes",
+        "features": [
+          "12000 credits, valid for 1 year",
+          "Text-to-image and image-to-image generation",
+          "High-quality images with Z Image Turbo models",
+          "Free download of generated images"
+        ],
+        "interval": "year",
+        "amount": 9990,
+        "currency": "USD",
+        "price": "$99.9",
+        "original_price": "$99.9",
+        "unit": "/ year",
+        "is_featured": true,
+        "tip": "Subscription can be canceled anytime!",
+        "button": {
+          "title": "Subscribe Plan",
+          "url": "/#pricing",
+          "icon": "RiBankCardLine"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "Premium Plan Annually",
+        "credits": 12000,
+        "valid_days": 365,
+        "group": "yearly",
+        "plan_name": "Premium"
+      }
+    ]
+  },
+  "page": {
+    "current_plan": "Current Plan",
+    "processing": "Processing"
+  }
+}

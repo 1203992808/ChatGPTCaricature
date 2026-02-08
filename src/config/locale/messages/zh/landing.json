@@ -1,0 +1,686 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "Z Image Turbo",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Z Image logo"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能亮点",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "案例展示",
+          "url": "/showcases",
+          "icon": "Box"
+        },
+        {
+          "title": "价格",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "AI",
+          "icon": "RiRobot2Line",
+          "children": [
+            {
+              "title": "AI 图片生成器",
+              "description": "使用 AI 生成图片",
+              "url": "/ai-image-generator",
+              "icon": "RiImage2Line"
+            },
+            {
+              "title": "AI 音乐生成器",
+              "description": "使用 AI 生成美妙的音乐",
+              "url": "/ai-music-generator",
+              "icon": "RiMusic2Line"
+            },
+            {
+              "title": "AI 视频生成器",
+              "description": "使用 AI 生成视频",
+              "url": "/ai-video-generator",
+              "icon": "RiVideoLine"
+            },
+            {
+              "title": "AI 聊天机器人",
+              "description": "与 AI 聊天机器人对话",
+              "url": "/chat",
+              "icon": "RiMessage2Line"
+            }
+          ]
+        },
+        {
+          "title": "博客",
+          "url": "/blog",
+          "icon": "Newspaper"
+        },
+        {
+          "title": "文档",
+          "url": "/docs",
+          "icon": "BookOpenText"
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "账单",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "活动",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "id": "hero",
+    "title": "Z Image Turbo 极速AI文生图",
+    "highlight_text": "极速",
+    "description": "Z Image Turbo 是 6B 蒸馏 Z-Image 模型，主打秒级文生图、写实画质与多语言渲染；属于 z image ai 家族的 z image model，适合快速生成高质量图片。",
+    "announcement": {
+      "badge": "全新",
+      "title": "🎉 新版本已上线",
+      "url": "/create"
+    },
+    "tip": "对比 qwen image，体验 z image turbo 的速度与画质",
+    "buttons": [
+      {
+        "title": "立即生成",
+        "icon": "Zap",
+        "url": "/create",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "查看示例",
+        "icon": "BookOpenText",
+        "url": "/#showcases",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_avatars": true,
+    "avatars_tip": "999+ 用户在使用该模型生成图片",
+    "show_award": false,
+    "image": {
+      "src": "/imgs/features/admin.png",
+      "alt": "hero"
+    },
+    "image_invert": {
+      "src": "/imgs/features/admin-dark.png",
+      "alt": "hero"
+    },
+    "background_image": {
+      "src": "/imgs/bg/hero_premium.png",
+      "alt": "hero"
+    }
+  },
+  "logos": {
+    "title": "Web 版由以下技术栈构建",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "block": "features-list",
+    "id": "introduce",
+    "title": "Z Image Turbo 是什么？",
+    "label": "产品简介",
+    "description": "Z Image Turbo 是 Z-Image 的高效蒸馏版，6B 参数、8 NFEs、秒级生成，兼顾写实质量与多语言文字渲染。",
+    "image": {
+      "src": "/imgs/features/landing-page.png",
+      "alt": "introduce"
+    },
+    "items": [
+      {
+        "title": "秒级文生图",
+        "description": "以极少推理步数快速出图，提升创作效率。",
+        "icon": "RiNextjsFill",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "写实画质",
+        "description": "细节、光影与材质表现稳定，适合商业与创意场景。",
+        "icon": "RiDatabase2Line",
+        "image": {
+          "src": "/imgs/features/2.png",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "多语言文字渲染",
+        "description": "支持多语言排版与文字生成，英语与中文优化并持续扩展。",
+        "icon": "RiCloudyFill",
+        "image": {
+          "src": "/imgs/features/3.png",
+          "alt": "introduce"
+        }
+      },
+      {
+        "title": "强指令遵循",
+        "description": "复杂提示词也能保持构图与风格一致，便于稳定输出。",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "/imgs/features/4.png",
+          "alt": "introduce"
+        }
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "benefits": {
+    "block": "features-accordion",
+    "id": "benefits",
+    "title": "为何选择 Z Image Turbo",
+    "label": "产品优势",
+    "description": "面向真实生产场景的 AI 图像生成：速度、质量与效率兼顾。",
+    "items": [
+      {
+        "title": "高效率",
+        "description": "8 NFEs 级别的生成速度，快速迭代与验证创意。",
+        "icon": "RiNextjsFill",
+        "image": {
+          "src": "/imgs/features/user-billing.png",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "高质量",
+        "description": "写实风格与细节表现稳定，适合产品图、人物与场景。",
+        "icon": "RiClapperboardAiLine",
+        "image": {
+          "src": "/imgs/features/admin-settings.png",
+          "alt": "benefits"
+        }
+      },
+      {
+        "title": "轻量易用",
+        "description": "6B 蒸馏模型，16GB 显存即可运行，部署成本低。",
+        "icon": "RiCodeFill",
+        "image": {
+          "src": "/imgs/features/landing-page.png",
+          "alt": "benefits"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "block": "features-step",
+    "id": "usage",
+    "title": "三步使用 Z Image Turbo 快速生成",
+    "description": "只需三步，完成文生图流程：",
+    "image": {
+      "src": "/imgs/features/1.png",
+      "alt": "usage"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "输入提示词",
+        "description": "描述主题、风格、光线与构图，明确你想要的画面。",
+        "image": {
+          "src": "/imgs/features/5.png",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "选择比例与风格",
+        "description": "选择 1:1、16:9 等比例，确定风格与用途。",
+        "image": {
+          "src": "/imgs/features/6.png",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "生成与迭代",
+        "description": "快速出图并根据结果微调提示词，持续优化效果。",
+        "image": {
+          "src": "/imgs/features/7.png",
+          "alt": "usage"
+        }
+      },
+      {
+        "title": "下载与应用",
+        "description": "导出图片用于设计、营销与内容创作场景。",
+        "image": {
+          "src": "/imgs/features/8.png",
+          "alt": "usage"
+        }
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "features": {
+    "id": "features",
+    "title": "Z Image Turbo 核心能力",
+    "description": "聚焦速度、质量与可控性的文生图能力。",
+    "items": [
+      {
+        "title": "8 步生成",
+        "description": "8 NFEs 即可获得高质量结果。",
+        "icon": "RiNextjsFill"
+      },
+      {
+        "title": "6B 蒸馏效率",
+        "description": "小体积高性能，适合本地或云端部署。",
+        "icon": "RiKey2Fill"
+      },
+      {
+        "title": "写实质感",
+        "description": "细节与光影更自然，适合产品与人物。",
+        "icon": "RiDatabase2Line"
+      },
+      {
+        "title": "多语言文字渲染",
+        "description": "多语言排版清晰，文本细节可读。",
+        "icon": "RiCloudy2Fill"
+      },
+      {
+        "title": "强指令遵循",
+        "description": "复杂提示词也能精准落地。",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "快速迭代",
+        "description": "几秒出图，快速探索风格与构图。",
+        "icon": "RiRobot2Line"
+      }
+    ]
+  },
+  "stats": {
+    "id": "stats",
+    "title": "Z Image Turbo 关键指标",
+    "description": "用数据展示速度与效率。",
+    "items": [
+      {
+        "title": "6B",
+        "description": "参数规模"
+      },
+      {
+        "title": "8",
+        "description": "NFEs 步数"
+      },
+      {
+        "title": "16GB",
+        "description": "显存可运行"
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "testimonials": {
+    "id": "testimonials",
+    "title": "用户对 Z Image Turbo 的评价",
+    "description": "来自设计师与创作者的真实反馈。",
+    "items": [
+      {
+        "name": "David Chen",
+        "role": "产品设计师",
+        "quote": "出图速度很快，写实效果稳定，让我们能在短时间内完成视觉提案。",
+        "image": {
+          "src": "/imgs/avatars/1.png",
+          "alt": "david"
+        }
+      },
+      {
+        "name": "Rachel Kim",
+        "role": "创意总监",
+        "quote": "多语言文字渲染让海报制作更省时，生成的排版清晰可读。",
+        "image": {
+          "src": "/imgs/avatars/2.png",
+          "alt": "rachel"
+        }
+      },
+      {
+        "name": "Marcus Thompson",
+        "role": "独立创作者",
+        "quote": "让我在几分钟内产出多种风格方案，极大提升创作效率。",
+        "image": {
+          "src": "/imgs/avatars/3.png",
+          "alt": "marcus"
+        }
+      },
+      {
+        "name": "Sofia Garcia",
+        "role": "电商运营",
+        "quote": "产品图和场景图生成快速稳定，帮助我们加速上新节奏。",
+        "image": {
+          "src": "/imgs/avatars/4.png",
+          "alt": "sofia"
+        }
+      },
+      {
+        "name": "James Wilson",
+        "role": "AI 团队负责人",
+        "quote": "8 NFEs 的速度和写实质感兼顾，在实际生产中很可靠。",
+        "image": {
+          "src": "/imgs/avatars/5.png",
+          "alt": "james"
+        }
+      },
+      {
+        "name": "Anna Zhang",
+        "role": "品牌设计师",
+        "quote": "提示词遵循度高，风格一致性让品牌素材更统一。",
+        "image": {
+          "src": "/imgs/avatars/6.png",
+          "alt": "anna"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "id": "faq",
+    "title": "关于 Z Image Turbo 的常见问题",
+    "description": "还有其他问题？欢迎加入 Discord 或发邮件联系我们。",
+    "tip": "没有找到想要的答案？请联系 <a href='https://discord.gg/HQNnrzjZQS' target='_blank' class='text-primary font-medium hover:underline'>我们的客服团队</a>",
+    "items": [
+      {
+        "question": "Z Image Turbo 是什么？",
+        "answer": "Z Image Turbo（z image turbo）是 6B 蒸馏 Z-Image，属于 z image ai 家族的 z image model，用于高速文生图与写实生成。"
+      },
+      {
+        "question": "生成速度有多快？",
+        "answer": "8 NFEs 即可出图，现代 GPU 可实现秒级体验，适合快速迭代。"
+      },
+      {
+        "question": "支持多语言文字渲染吗？",
+        "answer": "支持多语言排版与文字生成，英语与中文优化，更多语言持续扩展。"
+      },
+      {
+        "question": "文生图和图生图分别用什么模型？",
+        "answer": "文生图使用 Z Image Turbo，图生图使用 Seedream 4.5。我们也会接入第三方模型与基础设施提供商来提供服务。Z Image Turbo 为独立产品，与任何第三方模型提供方不存在隶属或背书关系。"
+      },
+      {
+        "question": "与 qwen image 有什么区别？",
+        "answer": "qwen image 与 Z Image Turbo 是不同路线的模型，建议用同一提示词对比速度、写实与文字效果。"
+      },
+      {
+        "question": "可以商用吗？",
+        "answer": "在遵守版权和许可的前提下可用于商业项目。"
+      },
+      {
+        "question": "如何写更好的提示词？",
+        "answer": "写清主体、场景、风格、光线和比例，并明确文字内容与布局要求。"
+      }
+    ]
+  },
+  "cta": {
+    "id": "cta",
+    "title": "立即体验 Z Image Turbo",
+    "description": "用 Z Image Turbo 秒级生成高质量图像。",
+    "buttons": [
+      {
+        "title": "开始生成",
+        "url": "/create",
+        "target": "_self",
+        "icon": "Zap"
+      },
+      {
+        "title": "查看示例",
+        "url": "/#showcases",
+        "target": "_self",
+        "variant": "outline",
+        "icon": "BookOpenText"
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "subscribe": {
+    "id": "subscribe",
+    "title": "订阅 Z Image Turbo 更新",
+    "description": "获取最新模型进展与功能公告。",
+    "submit": {
+      "input": {
+        "placeholder": "输入邮箱"
+      },
+      "button": {
+        "title": "订阅"
+      },
+      "action": "/api/subscribe"
+    },
+    "className": "bg-muted"
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "Z Image Turbo",
+      "description": "高速文生图模型，强调速度、写实画质与多语言渲染，适合快速生成高质量图片。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Z Image Turbo"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "关于我们",
+          "children": [
+            {
+              "title": "功能亮点",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "案例展示",
+              "url": "/showcases",
+              "target": "_self"
+            },
+            {
+              "title": "价格",
+              "url": "/pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "文档",
+              "url": "/docs",
+              "target": "_self"
+            },
+            {
+              "title": "博客",
+              "url": "/blog",
+              "target": "_self"
+            },
+            {
+              "title": "对话",
+              "url": "/chat",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "合作伙伴",
+          "children": [
+            {
+              "title": "Z Image Turbo",
+              "url": "/",
+              "target": "_self"
+            },
+            {
+              "title": "ThinkAny",
+              "url": "https://thinkany.ai",
+              "target": "_blank"
+            },
+            {
+              "title": "MCP.so",
+              "url": "https://mcp.so",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "友情链接",
+          "children": [
+            {
+              "title": "Dofollow.Tools",
+              "url": "https://dofollow.tools",
+              "target": "_blank",
+              "image": {
+                "src": "https://dofollow.tools/badge/badge_dark.svg",
+                "alt": "Featured on Dofollow.Tools",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "Wired Business",
+              "url": "https://wired.business",
+              "target": "_blank",
+              "image": {
+                "src": "https://wired.business/badge0-dark.svg",
+                "alt": "Featured on Wired Business",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "Twelve Tools",
+              "url": "https://twelve.tools",
+              "target": "_blank",
+              "image": {
+                "src": "https://twelve.tools/badge0-dark.svg",
+                "alt": "Featured on Twelve Tools",
+                "width": 200,
+                "height": 54,
+                "className": "w-[200px] h-auto"
+              }
+            },
+            {
+              "title": "ShowMeBestAI Dark",
+              "url": "https://showmebest.ai",
+              "target": "_blank",
+              "image": {
+                "src": "https://showmebest.ai/badge/feature-badge-dark.webp",
+                "alt": "Featured on ShowMeBestAI",
+                "width": 220,
+                "height": 60,
+                "className": "w-[220px] h-auto"
+              }
+            },
+            {
+              "title": "Startup Fame",
+              "url": "https://startupfa.me/s/z-image-turbo-5?utm_source=zimageturbo.site",
+              "target": "_blank",
+              "image": {
+                "src": "https://startupfa.me/badges/featured-badge-small.webp",
+                "alt": "Z Image Turbo - Featured on Startup Fame",
+                "width": 224,
+                "height": 36,
+                "className": "w-[224px] h-auto"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "Github",
+          "url": "https://github.com/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/your-app-name",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "Mail",
+          "url": "mailto:yzshi123@gmail.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "yzshi123@gmail.com",
+          "url": "mailto:yzshi123@gmail.com"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}
