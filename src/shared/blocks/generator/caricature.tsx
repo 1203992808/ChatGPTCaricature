@@ -29,6 +29,14 @@ import {
   CardHeader,
   CardTitle,
 } from '@/shared/components/ui/card';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/shared/components/ui/dialog';
 import { Input } from '@/shared/components/ui/input';
 import { Label } from '@/shared/components/ui/label';
 import { Progress } from '@/shared/components/ui/progress';
@@ -200,6 +208,8 @@ export function CaricatureGenerator({
   const [imagesLoadingState, setImagesLoadingState] = useState<
     Record<string, 'loading' | 'loaded' | 'error'>
   >({});
+  const [isInsufficientCreditsDialogOpen, setIsInsufficientCreditsDialogOpen] =
+    useState(false);
   const hasLoadedCreditsRef = useRef(false);
 
   const { user, isCheckSign, setIsShowSignModal, fetchUserCredits } =
@@ -566,7 +576,7 @@ export function CaricatureGenerator({
     }
 
     if (remainingCredits < COST_CREDITS) {
-      toast.error(t('insufficient_credits'));
+      setIsInsufficientCreditsDialogOpen(true);
       return;
     }
 
@@ -886,8 +896,7 @@ export function CaricatureGenerator({
                       isLoadingProviders ||
                       isReferenceUploading ||
                       hasReferenceUploadError ||
-                      referenceImageUrls.length === 0 ||
-                      (!isLoadingCredits && remainingCredits < COST_CREDITS)
+                      referenceImageUrls.length === 0
                     }
                   >
                     {isGenerating ? (
@@ -917,6 +926,44 @@ export function CaricatureGenerator({
                     {t('sign_in_to_generate')}
                   </Button>
                 )}
+
+                <Dialog
+                  open={isInsufficientCreditsDialogOpen}
+                  onOpenChange={setIsInsufficientCreditsDialogOpen}
+                >
+                  <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                      <DialogTitle>
+                        {t('insufficient_credits_title')}
+                      </DialogTitle>
+                      <DialogDescription>
+                        {t('insufficient_credits_description', {
+                          credits: COST_CREDITS,
+                        })}
+                      </DialogDescription>
+                    </DialogHeader>
+                    <DialogFooter className="gap-2 sm:gap-0">
+                      <Button
+                        variant="outline"
+                        onClick={() =>
+                          setIsInsufficientCreditsDialogOpen(false)
+                        }
+                      >
+                        {t('insufficient_credits_cancel')}
+                      </Button>
+                      <Button asChild>
+                        <Link
+                          href="/pricing"
+                          onClick={() =>
+                            setIsInsufficientCreditsDialogOpen(false)
+                          }
+                        >
+                          {t('insufficient_credits_buy')}
+                        </Link>
+                      </Button>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
 
                 {/* Credits Info */}
                 {!isMounted || isLoadingCredits || isLoadingProviders ? (
