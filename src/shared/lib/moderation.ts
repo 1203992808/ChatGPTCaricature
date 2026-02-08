@@ -120,7 +120,7 @@ const MODERATION_RULES: ModerationRule[] = [
     reason: 'Child sexual abuse material (CSAM)',
     severity: 'high',
     pattern:
-      /\b(?:child.*porn|childporn|cp|preteen|pre.*teen|underage.*sex|minor.*sex|kid.*porn|loli|lolita|shota|child.*abuse|child.*molest|child.*exploit|pedo|pedophile|pedophilia|hebephil|grooming|jailbait)\b/i,
+      /\b(?:child.*porn|childporn|csam|preteen|pre.*teen|underage.*sex|minor.*sex|kid.*porn|loli|lolita|shota|child.*abuse|child.*molest|child.*exploit|pedo|pedophile|pedophilia|hebephil|grooming|jailbait)\b/i,
   },
   {
     id: 'child-sexual-zh',
@@ -491,10 +491,10 @@ export function moderateContent(
       const match = aggressiveNormalized.match(rule.pattern);
       matchedText = match ? match[0] : 'unknown';
     } else {
-      // For aggressive normalization, test without word boundaries ONLY for high-risk categories
-      // This prevents over-blocking while still catching evasion attempts for the most harmful content
+      // For aggressive normalization, test without word boundaries ONLY for the highest-risk categories
+      // SEXUAL is excluded because short keywords like "sex" cause false positives on words
+      // such as "expression", "exaggerated", "sextant", etc. when spaces are removed
       const useRelaxedMatching =
-        rule.category === ModerationCategory.SEXUAL ||
         rule.category === ModerationCategory.CHILD_SAFETY ||
         rule.category === ModerationCategory.DRUGS;
 

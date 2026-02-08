@@ -278,7 +278,11 @@ export class ReplicateProvider implements AIProvider {
 
     // image_input transform
     if (options.image_input && Array.isArray(options.image_input)) {
-      if (['black-forest-labs/flux-2-pro'].includes(model)) {
+      if (
+        ['black-forest-labs/flux-2-pro', 'openai/gpt-image-1.5'].includes(
+          model
+        )
+      ) {
         input.input_images = options.image_input;
         delete input.image_input;
       } else if (['google/veo-3.1'].includes(model)) {

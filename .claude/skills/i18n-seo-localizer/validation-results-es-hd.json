@@ -1,0 +1,201 @@
+{
+  "metadata_check": {
+    "title": {
+      "content": "Convertidor de Fotos HD - Pasar Foto a HD | MakeMyPic",
+      "length": 53,
+      "min": 45,
+      "max": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "content": "Convertidor de fotos HD con IA para pasar foto a HD profesional. Conversión a alta resolución en segundos, procesamiento por lotes, sin marcas. Inicia sesión gratis.",
+      "length": 165,
+      "min": 145,
+      "max": 165,
+      "status": "PASS"
+    }
+  },
+  "keyword_analysis": {
+    "locale": "es",
+    "total_characters": 11175,
+    "total_words": 1670,
+    "keywords_analysis": {
+      "ai-image-generator": {
+        "primary": "generador de imágenes con IA",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "text-to-image": {
+        "primary": "texto a imagen",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 1,
+          "total": 1
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "image-to-image": {
+        "primary": "imagen a imagen",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "ai-photo-editor": {
+        "primary": "editor de fotos con IA",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "ai-image-enhancer": {
+        "primary": "mejorador de imágenes con IA",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 14,
+          "total": 14
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "ai-image-upscaler": {
+        "primary": "ampliador de imágenes con IA",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 13,
+          "total": 13
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "hd-photo-converter": {
+        "primary": "convertidor de fotos HD",
+        "counts": {
+          "primary": 13,
+          "alternatives": 14,
+          "semantic_variants": 30,
+          "related_terms": 33,
+          "total": 90
+        },
+        "distribution": {
+          "primary_pct": 14.4,
+          "semantic_pct": 33.3,
+          "related_pct": 36.7
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.78,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 14.444444444444443% vs expected 30.0%"
+        }
+      }
+    }
+  },
+  "overall_status": "FAIL"
+}

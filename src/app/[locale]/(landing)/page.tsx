@@ -1,11 +1,10 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getThemePage } from '@/core/theme';
-import { ImageGenerator } from '@/shared/blocks/generator';
+import { CaricatureGenerator } from '@/shared/blocks/generator';
+import { getLatestShowcases } from '@/shared/models/showcase';
 import { DynamicPage, Section } from '@/shared/types/blocks/landing';
 import { ShowcasesFlowDynamic } from '@/themes/default/blocks/showcases-flow-dynamic';
-
-import { getLatestShowcases } from '@/shared/models/showcase';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -19,11 +18,10 @@ export default async function LandingPage({
   setRequestLocale(locale);
 
   const t = await getTranslations('landing');
-  const tc = await getTranslations('pages.create');
+  const tc = await getTranslations('ai.caricature');
 
   // Fetch showcases data server-side for faster initial render
   const rawShowcases = await getLatestShowcases({
-    excludeTags: 'hairstyles',
     sortOrder: 'desc',
     limit: 20,
   });
@@ -36,14 +34,11 @@ export default async function LandingPage({
   const showSections = [
     'hero',
     'showcases-flow',
-    'logos',
     'introduce',
+    'styles',
+    'howItWorks',
     'benefits',
-    'usage',
     'features',
-    'stats',
-    'testimonials',
-    'subscribe',
     'faq',
     'cta',
   ];
@@ -55,18 +50,18 @@ export default async function LandingPage({
         const sectionData = t.raw(section) as Section;
         acc[section] = {
           ...sectionData,
-          title: 'Z Image Turbo AI Image Generator',
+          title: 'ChatGPT Caricature Generator',
           description: '',
           announcement: {
-            title: 'Created By SOLOSTACK LABS LTD',
-            url: 'https://solostacklabs.com',
-            target: '_blank',
+            title: 'The  AI caricature trend everyone is talking about',
+            url: '/chatgpt-caricature',
+            target: '_self',
           },
           buttons: undefined,
           image: undefined,
           image_invert: undefined,
           component: (
-            <ImageGenerator
+            <CaricatureGenerator
               srOnlyTitle={tc.raw('generator.title')}
               className="py-6 md:py-8"
             />
@@ -81,7 +76,6 @@ export default async function LandingPage({
               key="showcases-flow"
               title={sectionData.title}
               description={sectionData.description}
-              excludeTags="hairstyles"
               sortOrder="desc"
               hideCreateButton={true}
               initialItems={initialShowcases}

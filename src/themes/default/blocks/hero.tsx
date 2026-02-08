@@ -67,13 +67,13 @@ export function Hero({
                   {texts[1]}
                 </span>
               </h1>
-            ) : section.title === 'Z Image Turbo AI Image Generator' ? (
-              <h1 className="flex flex-col items-center justify-center text-balance font-extrabold tracking-tight sm:mt-6">
-                <span className="bg-gradient-to-r from-violet-500 via-fuchsia-500 to-amber-400 bg-clip-text text-3xl text-transparent sm:text-5xl dark:from-violet-400 dark:via-fuchsia-400 dark:to-amber-300">
-                  Z Image Turbo
+            ) : section.title === 'ChatGPT Caricature Generator' ? (
+              <h1 className="flex flex-wrap items-baseline justify-center gap-x-4 text-balance font-extrabold tracking-tight sm:mt-6">
+                <span className="bg-gradient-to-r from-violet-500 via-fuchsia-500 to-amber-400 bg-clip-text text-4xl text-transparent sm:text-6xl dark:from-violet-400 dark:via-fuchsia-400 dark:to-amber-300">
+                  ChatGPT
                 </span>
-                <span className="text-foreground mt-2 text-4xl font-bold sm:text-6xl">
-                  AI Image Generator
+                <span className="text-foreground text-4xl font-bold sm:text-6xl">
+                  Caricature Generator
                 </span>
               </h1>
             ) : (

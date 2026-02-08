@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getThemePage } from '@/core/theme';
-import { ImageGenerator } from '@/shared/blocks/generator';
+import { CaricatureGenerator } from '@/shared/blocks/generator';
 import { getMetadata } from '@/shared/lib/seo';
 import { DynamicPage } from '@/shared/types/blocks/landing';
 
@@ -12,20 +12,14 @@ export const generateMetadata = getMetadata({
 
 export default async function CreatePage({
   params,
-  searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ prompt?: string }>;
 }) {
   const { locale } = await params;
-  const { prompt: promptKey } = await searchParams;
   setRequestLocale(locale);
 
-  // get ai image data
   const t = await getTranslations('pages.create');
-
-  // get landing page data
-  const tl = await getTranslations('landing');
+  const tc = await getTranslations('ai.caricature');
 
   // build page sections
   const page: DynamicPage = {
@@ -36,7 +30,7 @@ export default async function CreatePage({
         description: t.raw('page.description'),
       },
       generator: {
-        component: <ImageGenerator srOnlyTitle={t.raw('generator.title')} promptKey={promptKey} />,
+        component: <CaricatureGenerator srOnlyTitle={tc.raw('generator.title')} />,
       },
     },
   };

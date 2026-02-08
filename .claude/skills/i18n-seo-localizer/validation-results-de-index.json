@@ -1,0 +1,201 @@
+{
+  "metadata_check": {
+    "title": {
+      "content": "KI-Bildgenerator | Texteingabe & Foto-Upload - MakeMyPic",
+      "length": 56,
+      "min": 45,
+      "max": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "content": "Professioneller KI-Bildgenerator mit GPT Image, Flux 2, Nano Banana Pro. Aus Text Bild erstellen und Fotos transformieren. Bonus-Credits bei Registrierung. DSGVO-konform.",
+      "length": 170,
+      "min": 150,
+      "max": 170,
+      "status": "PASS"
+    }
+  },
+  "keyword_analysis": {
+    "locale": "de",
+    "total_characters": 11008,
+    "total_words": 1172,
+    "keywords_analysis": {
+      "ai-image-generator": {
+        "primary": "KI-Bildgenerator",
+        "counts": {
+          "primary": 6,
+          "alternatives": 0,
+          "semantic_variants": 4,
+          "related_terms": 8,
+          "total": 18
+        },
+        "distribution": {
+          "primary_pct": 33.3,
+          "semantic_pct": 22.2,
+          "related_pct": 44.4
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.51,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Semantic 22.22222222222222% vs expected 40.0%"
+        }
+      },
+      "text-to-image": {
+        "primary": "Text-zu-Bild",
+        "counts": {
+          "primary": 5,
+          "alternatives": 1,
+          "semantic_variants": 1,
+          "related_terms": 10,
+          "total": 17
+        },
+        "distribution": {
+          "primary_pct": 29.4,
+          "semantic_pct": 5.9,
+          "related_pct": 58.8
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.43,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Semantic 5.88235294117647% vs expected 40.0%"
+        }
+      },
+      "image-to-image": {
+        "primary": "Bild-zu-Bild",
+        "counts": {
+          "primary": 2,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 2,
+          "total": 4
+        },
+        "distribution": {
+          "primary_pct": 50.0,
+          "semantic_pct": 0.0,
+          "related_pct": 50.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.17,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 50.0% vs expected 30.0%"
+        }
+      },
+      "ai-photo-editor": {
+        "primary": "KI-Fotoeditor",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 2,
+          "total": 2
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "ai-image-enhancer": {
+        "primary": "Bildqualität verbessern",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "ai-image-upscaler": {
+        "primary": "KI-Bild-Upscaler",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "hd-photo-converter": {
+        "primary": "HD-Foto-Konverter",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      }
+    }
+  },
+  "overall_status": "FAIL"
+}

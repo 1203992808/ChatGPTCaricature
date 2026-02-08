@@ -616,7 +616,7 @@ export async function getSettings() {
       name: 'plausible_domain',
       title: 'Plausible Domain',
       type: 'text',
-      placeholder: 'zimageturbo.site',
+      placeholder: 'chatgptcaricature.pro',
       group: 'plausible',
       tab: 'analytics',
     },

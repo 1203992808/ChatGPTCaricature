@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Z Image Turbo 价格",
-    "description": "选择方案，立即开始使用 Z Image Turbo 模型生成图像。"
+    "title": "AI 漫画生成器价格",
+    "description": "选择方案，立即开始创建 AI 漫画肖像。低至 $9.9 可生成 20 张漫画。"
   },
   "pricing": {
     "id": "pricing",
-    "sr_only_title": "Z Image Turbo 价格表",
-    "title": "Z Image Turbo 方案",
-    "description": "开始使用 Z Image Turbo 模型生成图像。",
+    "sr_only_title": "AI 漫画生成器价格表",
+    "title": "漫画生成价格方案",
+    "description": "开始使用 AI 生成有趣的漫画肖像。",
     "groups": [
       {
         "name": "one-time",
@@ -21,7 +21,7 @@
       {
         "name": "yearly",
         "title": "包年",
-        "label": "立省 23%"
+        "label": "最超值"
       }
     ],
     "items": [
@@ -30,17 +30,17 @@
         "description": "随时按需开始。",
         "features_title": "包含",
         "features": [
-          "1000 积分，有效期 1 年",
-          "文生图和图生图",
-          "使用 Z Image Turbo 模型生成高质量图像",
-          "免费下载生成图片"
+          "400 积分，有效期 1 年",
+          "所有 6 种漫画风格",
+          "高质量 AI 漫画生成",
+          "免费下载所有漫画"
         ],
         "interval": "one-time",
         "amount": 990,
         "currency": "USD",
         "price": "$9.9",
-        "original_price": "$16.9",
-        "unit": "/ 800 积分",
+        "original_price": "$14.9",
+        "unit": "/ 400 积分",
         "is_featured": true,
         "tip": "一次性付费",
         "button": {
@@ -50,7 +50,7 @@
         },
         "product_id": "credits-package",
         "product_name": "积分包",
-        "credits": 1000,
+        "credits": 400,
         "valid_days": 365,
         "group": "one-time"
       },
@@ -59,16 +59,17 @@
         "description": "按月自动续订获取积分。",
         "features_title": "包含",
         "features": [
-          "1000 积分，有效期 1 个月",
-          "文生图和图生图",
-          "使用 Z Image Turbo 模型生成高质量图像",
-          "免费下载生成图片"
+          "1000 积分 / 月（约 50 张漫画）",
+          "所有 6 种漫画风格",
+          "高质量 AI 漫画生成",
+          "免费下载所有漫画",
+          "随时取消"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 1990,
         "currency": "USD",
-        "price": "$9.9",
-        "original_price": "$16.9",
+        "price": "$19.9",
+        "original_price": "$29.9",
         "unit": "/ 月",
         "is_featured": true,
         "tip": "订阅可随时取消！",
@@ -86,19 +87,20 @@
       },
       {
         "title": "高级版",
-        "description": "约 $8.2 / 月，相比月付立省 16.67%。",
+        "description": "约 $16.7 / 月，相比月付立省 16.1%。",
         "features_title": "包含",
         "features": [
-          "4800 积分，有效期 1 年",
-          "文生图和图生图",
-          "使用 Z Image Turbo 模型生成高质量图像",
-          "免费下载生成图片"
+          "12000 积分 / 年（约 600 张漫画）",
+          "所有 6 种漫画风格",
+          "高质量 AI 漫画生成",
+          "免费下载所有漫画",
+          "随时取消"
         ],
         "interval": "year",
-        "amount": 9900,
+        "amount": 20000,
         "currency": "USD",
-        "price": "$99.9",
-        "original_price": "$99.9",
+        "price": "$200",
+        "original_price": "$358.8",
         "unit": "/ 年",
         "is_featured": true,
         "tip": "订阅可随时取消！",

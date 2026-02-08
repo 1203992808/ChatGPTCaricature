@@ -1,0 +1,201 @@
+{
+  "metadata_check": {
+    "title": {
+      "content": "HD-Foto-Konverter - Bilder in HD umwandeln | MakeMyPic",
+      "length": 54,
+      "min": 45,
+      "max": 60,
+      "status": "PASS"
+    },
+    "description": {
+      "content": "Professioneller HD-Foto-Konverter mit KI-Technologie. Foto in HD umwandeln und Fotoauflösung erhöhen in Sekunden. Ohne Wasserzeichen, bis zu 10 Bilder gleichzeitig.",
+      "length": 164,
+      "min": 150,
+      "max": 170,
+      "status": "PASS"
+    }
+  },
+  "keyword_analysis": {
+    "locale": "de",
+    "total_characters": 11665,
+    "total_words": 1382,
+    "keywords_analysis": {
+      "ai-image-generator": {
+        "primary": "KI-Bildgenerator",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 0,
+          "total": 0
+        },
+        "distribution": {
+          "primary_pct": 0,
+          "semantic_pct": 0,
+          "related_pct": 0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0% vs expected 30.0%"
+        }
+      },
+      "text-to-image": {
+        "primary": "Text-zu-Bild",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 1,
+          "total": 1
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "image-to-image": {
+        "primary": "Bild-zu-Bild",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 1,
+          "total": 1
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "ai-photo-editor": {
+        "primary": "KI-Fotoeditor",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 2,
+          "total": 2
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "ai-image-enhancer": {
+        "primary": "Bildqualität verbessern",
+        "counts": {
+          "primary": 1,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 4,
+          "total": 5
+        },
+        "distribution": {
+          "primary_pct": 20.0,
+          "semantic_pct": 0.0,
+          "related_pct": 80.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.07,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Semantic 0.0% vs expected 40.0%"
+        }
+      },
+      "ai-image-upscaler": {
+        "primary": "KI-Bild-Upscaler",
+        "counts": {
+          "primary": 0,
+          "alternatives": 0,
+          "semantic_variants": 0,
+          "related_terms": 4,
+          "total": 4
+        },
+        "distribution": {
+          "primary_pct": 0.0,
+          "semantic_pct": 0.0,
+          "related_pct": 100.0
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.0,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Primary 0.0% vs expected 30.0%"
+        }
+      },
+      "hd-photo-converter": {
+        "primary": "HD-Foto-Konverter",
+        "counts": {
+          "primary": 7,
+          "alternatives": 6,
+          "semantic_variants": 8,
+          "related_terms": 15,
+          "total": 36
+        },
+        "distribution": {
+          "primary_pct": 19.4,
+          "semantic_pct": 22.2,
+          "related_pct": 41.7
+        },
+        "expected_distribution": {
+          "primary": "30%",
+          "semanticVariants": "40%",
+          "relatedTerms": "30%"
+        },
+        "keyword_density": 0.51,
+        "quality_checks": {
+          "keyword_stuffing": "PASS",
+          "distribution_balance": "FAIL - Semantic 22.22222222222222% vs expected 40.0%"
+        }
+      }
+    }
+  },
+  "overall_status": "FAIL"
+}

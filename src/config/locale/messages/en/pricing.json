@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Z Image Turbo Price",
-    "description": "Start with a plan to generate images with Z Image Turbo model."
+    "title": "AI Caricature Generator Pricing",
+    "description": "Choose a plan to create AI caricature portraits. Starting from $4.9 for 20 caricatures."
   },
   "pricing": {
     "id": "pricing",
-    "sr_only_title": "Z Image Turbo Pricing",
-    "title": "Z Image Turbo Plan",
-    "description": "Get started to generate images with Z Image Turbo model.",
+    "sr_only_title": "AI Caricature Generator Pricing",
+    "title": "Caricature Pricing Plans",
+    "description": "Get started creating fun AI caricature portraits from your photos.",
     "groups": [
       {
         "name": "one-time",
@@ -21,26 +21,27 @@
       {
         "name": "yearly",
         "title": "Annually",
-        "label": "save 16.67%"
+        "label": "Best Value"
       }
     ],
     "items": [
       {
-        "title": "Credits Package",
-        "description": "Start any time as you need.",
+        "title": "Credits Pack",
+        "description": "Perfect for trying out AI caricatures.",
         "features_title": "Includes",
         "features": [
-          "800 credits, valid for 1 year",
-          "Text-to-image and image-to-image generation",
-          "High-quality images with Z Image Turbo models",
-          "Free download of generated images"
+          "400 credits (~20 caricatures)",
+          "All 6 caricature styles",
+          "High-quality AI caricature generation",
+          "Free download of all caricatures",
+          "Valid for 1 year"
         ],
         "interval": "one-time",
         "amount": 990,
         "currency": "USD",
         "price": "$9.9",
-        "original_price": "$16.9",
-        "unit": "/ 800 credits",
+        "original_price": "$14.9",
+        "unit": "/ 400 credits",
         "is_featured": true,
         "tip": "One-time payment",
         "button": {
@@ -49,26 +50,27 @@
           "icon": "RiBankCardLine"
         },
         "product_id": "credits-package",
-        "product_name": "Credits Package",
-        "credits": 800,
+        "product_name": "Credits Pack",
+        "credits": 400,
         "valid_days": 365,
         "group": "one-time"
       },
       {
         "title": "Starter Plan",
-        "description": "Auto renew monthly to get credits.",
+        "description": "For regular caricature creators.",
         "features_title": "Includes",
         "features": [
-          "1000 credits, valid for 1 month",
-          "Text-to-image and image-to-image generation",
-          "High-quality images with Z Image Turbo models",
-          "Free download of generated images"
+          "1000 credits/month (~50 caricatures)",
+          "All 6 caricature styles",
+          "High-quality AI caricature generation",
+          "Free download of all caricatures",
+          "Cancel anytime"
         ],
         "interval": "month",
-        "amount": 990,
+        "amount": 1990,
         "currency": "USD",
-        "price": "$9.9",
-        "original_price": "$16.9",
+        "price": "$19.9",
+        "original_price": "$29.9",
         "unit": "/ month",
         "is_featured": true,
         "tip": "Subscription can be canceled anytime!",
@@ -86,19 +88,20 @@
       },
       {
         "title": "Premium Plan",
-        "description": "Around $8.2 / month, save 16.67% compared to monthly plan.",
+        "description": "Best value — only ~$16.7/month for 600 caricatures/year.",
         "features_title": "Includes",
         "features": [
-          "12000 credits, valid for 1 year",
-          "Text-to-image and image-to-image generation",
-          "High-quality images with Z Image Turbo models",
-          "Free download of generated images"
+          "12000 credits/year (~600 caricatures)",
+          "All 6 caricature styles",
+          "High-quality AI caricature generation",
+          "Free download of all caricatures",
+          "Cancel anytime"
         ],
         "interval": "year",
-        "amount": 9990,
+        "amount": 20000,
         "currency": "USD",
-        "price": "$99.9",
-        "original_price": "$99.9",
+        "price": "$200",
+        "original_price": "$358.8",
         "unit": "/ year",
         "is_featured": true,
         "tip": "Subscription can be canceled anytime!",

@@ -2,29 +2,19 @@
   "header": {
     "id": "header",
     "brand": {
-      "title": "Z Image Turbo",
+      "title": "ChatGPT Caricature",
       "logo": {
         "src": "/logo.png",
-        "alt": "Z Image logo"
+        "alt": "ChatGPT Caricature Generator logo"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "Create",
-          "url": "/create",
-          "icon": "Zap"
-        },
-        {
           "title": "Pricing",
           "url": "/pricing",
           "icon": "DollarSign"
-        },
-        {
-          "title": "Showcases",
-          "url": "/showcases",
-          "icon": "Box"
         }
       ]
     },
@@ -52,22 +42,19 @@
   },
   "hero": {
     "id": "hero",
-    "title": "Z Image Turbo AI Image Generator",
-    "description": "The z image turbo system is a fast z image ai text-to-image model built on the z image model, delivering photorealistic results, strong prompt adherence, and multilingual text rendering in seconds.",
-     "announcement": {
-      "badge": "New",
-      "title": "Created By SOLOSTACK LABS LTD"
-    },
+    "title": "ChatGPT Caricature Generator",
+    "description": "The viral ChatGPT Caricature trend — turn any photo into a hilarious cartoon portrait in seconds. Upload your face, pick a style, and create a shareable caricature drawing powered by cutting-edge AI.",
+    "announcement": null,
     "buttons": [
       {
-        "title": "Try it now",
+        "title": "Create Your Caricature",
         "icon": "Zap",
         "url": "/create",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "View examples",
+        "title": "View Gallery",
         "icon": "BookOpenText",
         "url": "/showcases",
         "target": "_self",
@@ -75,96 +62,96 @@
       }
     ],
     "show_avatars": false,
-    "avatars_tip": "999+ creators use the model for fast text-to-image",
+    "avatars_tip": "10,000+ caricatures created by happy users",
     "show_award": false,
     "background_image": {
       "src": "/imgs/bg/bg.jpg",
-      "alt": "hero"
+      "alt": "ChatGPT Caricature Generator hero background"
     }
   },
   "showcases-flow": {
     "id": "showcases-flow",
-    "title": "Z Image Turbo Showcases",
-    "description": "Representative results for photorealism, typography, and style control.",
+    "title": "AI Caricature Gallery",
+    "description": "See what our users have created — fun, expressive, and uniquely personal cartoon portraits made with our caricature maker.",
     "items": [
       {
         "title": "Showcase 1",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/1.jpeg",
-          "alt": "Showcase 1"
+          "alt": "Classic caricature portrait example"
         }
       },
       {
         "title": "Showcase 2",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/2.jpeg",
-          "alt": "Showcase 2"
+          "alt": "3D cartoon caricature example"
         }
       },
       {
         "title": "Showcase 3",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/3.jpeg",
-          "alt": "Showcase 3"
+          "alt": "Chibi caricature style example"
         }
       },
       {
         "title": "Showcase 4",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/4.jpeg",
-          "alt": "Showcase 4"
+          "alt": "Pop art caricature portrait example"
         }
       },
       {
         "title": "Showcase 5",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/5.jpeg",
-          "alt": "Showcase 5"
+          "alt": "Comic style caricature drawing"
         }
       },
       {
         "title": "Showcase 6",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/6.jpeg",
-          "alt": "Showcase 6"
+          "alt": "Job caricature with profession props"
         }
       },
       {
         "title": "Showcase 7",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/7.jpeg",
-          "alt": "Showcase 7"
+          "alt": "Funny exaggerated cartoon portrait"
         }
       },
       {
         "title": "Showcase 8",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/8.jpeg",
-          "alt": "Showcase 8"
+          "alt": "AI-generated caricature from photo"
         }
       },
       {
         "title": "Showcase 9",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/9.jpeg",
-          "alt": "Showcase 9"
+          "alt": "Personalized cartoon portrait with hobbies"
         }
       },
       {
         "title": "Showcase 10",
-        "description": "Text-to-image example",
+        "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/10.jpeg",
-          "alt": "Showcase 10"
+          "alt": "Viral ChatGPT caricature trend result"
         }
       }
     ]
@@ -175,93 +162,217 @@
   "introduce": {
     "block": "features-list",
     "id": "introduce",
-    "title": "What is Z Image Turbo?",
+    "title": "What is ChatGPT Caricature?",
     "label": "About",
-    "description": "Z Image Turbo is a fast AI-powered image generation platform. Create stunning, photorealistic images from text prompts or transform existing ones in seconds.",
+    "description": "ChatGPT Caricature is the viral AI art trend sweeping social media in 2026. Users upload a selfie and receive a playful, exaggerated cartoon portrait that highlights their facial features, profession, and personality. Our AI caricature generator makes this even easier — no ChatGPT Plus subscription needed. Simply upload a photo, choose a style, and get your personalized caricature portrait in seconds.",
     "image": {
       "src": "/imgs/showcases/image.png",
-      "alt": "Z Image Turbo Platform"
+      "alt": "ChatGPT Caricature example portrait"
     },
     "items": [
       {
-        "title": "Lightning-fast Generation",
-        "description": "High-quality results with only 8 inference steps, enabling near-instant image creation.",
-        "icon": "RiFlashlightLine",
-        "image": {
-          "src": "/imgs/features/1.png",
-          "alt": "Fast generation"
-        }
-      },
-      {
-        "title": "Photorealistic Quality",
-        "description": "Lifelike lighting, materials, and textures for product, portrait, and scene generation.",
+        "title": "Upload Any Photo",
+        "description": "Simply upload a clear face photo and our AI will analyze your features to create a personalized caricature drawing that captures your likeness perfectly.",
         "icon": "RiImageLine",
         "image": {
-          "src": "/imgs/features/2.png",
-          "alt": "Photorealistic quality"
+          "src": "/imgs/features/1.png",
+          "alt": "Upload photo for AI caricature"
         }
       },
       {
-        "title": "Multilingual Text Rendering",
-        "description": "Render clear text across languages with optimized English and Chinese support.",
-        "icon": "RiTranslate2",
-        "image": {
-          "src": "/imgs/features/3.png",
-          "alt": "Multilingual rendering"
-        }
-      },
-      {
-        "title": "Strong Prompt Adherence",
-        "description": "Complex prompts maintain consistent composition and style for reliable output.",
+        "title": "6 Unique Caricature Styles",
+        "description": "Choose from Classic Caricature, Job Caricature, 3D Cartoon, Comic Style, Chibi, and Pop Art — each designed to give you a distinct cartoon portrait look.",
         "icon": "RiMagicLine",
         "image": {
+          "src": "/imgs/features/2.png",
+          "alt": "Multiple caricature styles to choose"
+        }
+      },
+      {
+        "title": "Personalize Your Portrait",
+        "description": "Add your job title, hobbies, and personality traits to make your caricature truly one-of-a-kind, just like the trending \"me and my job\" AI caricature style.",
+        "icon": "RiUserStarLine",
+        "image": {
+          "src": "/imgs/features/3.png",
+          "alt": "Personalize cartoon portrait with job details"
+        }
+      },
+      {
+        "title": "Instant High-Quality Results",
+        "description": "Get your caricature portrait in seconds. Download in high resolution, ready for social media sharing, profile pictures, or printing as a gift.",
+        "icon": "RiFlashlightLine",
+        "image": {
           "src": "/imgs/features/4.png",
-          "alt": "Prompt adherence"
+          "alt": "Instant caricature generation results"
         }
       }
     ],
     "className": "bg-muted"
   },
-  "benefits": {
-    "hidden": true
-  },
-  "usage": {
-    "hidden": true
-  },
-  "features": {
-    "id": "features",
-    "title": "Key Features of Z Image Turbo",
-    "description": "Everything you need for fast text-to-image generation with a compact Z Image model focused on speed and quality.",
+  "styles": {
+    "block": "features-flow",
+    "id": "styles",
+    "title": "Explore ChatGPT Caricature Styles",
+    "description": "Every face tells a different story. Pick from 6 AI caricature styles to find the look that matches your personality and vibe.",
     "items": [
       {
-        "title": "Ultra-fast 8-step generation",
-        "description": "The model reaches high-quality results with only 8 NFEs, enabling near-instant image creation.",
+        "title": "Classic Caricature",
+        "description": "Traditional big-head, small-body style with exaggerated facial features. The most popular choice for funny cartoon portraits.",
+        "icon": "RiQuillPenLine",
+        "image": {
+          "src": "/example/classic-style.png",
+          "alt": "Classic caricature style with exaggerated features"
+        }
+      },
+      {
+        "title": "Job Caricature",
+        "description": "Inspired by the viral \"me and my job\" trend. Your cartoon portrait is surrounded by profession-specific props, tools, and themed elements.",
+        "icon": "RiBriefcaseLine",
+        "image": {
+          "src": "/example/job-style.png",
+          "alt": "Job caricature with profession elements"
+        }
+      },
+      {
+        "title": "3D Cartoon",
+        "description": "Pixar and Disney-inspired 3D cartoon portrait with smooth shading and expressive character design.",
+        "icon": "RiBox3Line",
+        "image": {
+          "src": "/example/3D-cartoon-style.png",
+          "alt": "3D cartoon portrait in Pixar style"
+        }
+      },
+      {
+        "title": "Comic Style",
+        "description": "Bold outlines, dynamic poses, and superhero comic book aesthetics for your exaggerated portrait.",
+        "icon": "RiFireLine",
+        "image": {
+          "src": "/example/comic-style.png",
+          "alt": "Comic book style caricature drawing"
+        }
+      },
+      {
+        "title": "Chibi",
+        "description": "Adorable anime-inspired caricature with large eyes, small body, and kawaii proportions.",
+        "icon": "RiHeartLine",
+        "image": {
+          "src": "/example/chibi-style.png",
+          "alt": "Chibi anime style caricature"
+        }
+      },
+      {
+        "title": "Pop Art",
+        "description": "Andy Warhol-inspired bold colors and halftone patterns for a striking, retro cartoon portrait.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "/example/pop-art-style.png",
+          "alt": "Pop art caricature portrait"
+        }
+      }
+    ]
+  },
+  "howItWorks": {
+    "block": "features-step",
+    "id": "howItWorks",
+    "title": "How to Create Your AI Caricature Portrait",
+    "description": "Turn any photo into a ChatGPT Caricature in 3 simple steps. No drawing skills required — our AI caricature maker handles everything for you.",
+    "items": [
+      {
+        "title": "Upload Your Photo",
+        "description": "Choose a clear, well-lit face photo. Front-facing portraits work best for the most accurate and expressive caricature results.",
+        "icon": "RiUploadLine"
+      },
+      {
+        "title": "Choose a Caricature Style",
+        "description": "Pick one of our 6 unique styles — Classic, Job, 3D Cartoon, Comic, Chibi, or Pop Art. Optionally add your profession, hobbies, or personality traits for a personalized touch.",
         "icon": "RiMagicLine"
       },
       {
-        "title": "Photorealistic detail",
-        "description": "Deliver lifelike lighting, materials, and textures for product, portrait, and scene generation.",
+        "title": "Download & Share",
+        "description": "Your AI-generated caricature is ready in seconds. Download in high resolution and share it on Instagram, TikTok, LinkedIn, or WhatsApp.",
+        "icon": "RiDownloadLine"
+      }
+    ]
+  },
+  "benefits": {
+    "block": "features-accordion",
+    "id": "benefits",
+    "title": "Why Choose Our ChatGPT Caricature Generator?",
+    "description": "More than just a filter — our ChatGPT Caricature generator produces truly personalized, high-quality cartoon portraits that stand out from generic tools.",
+    "items": [
+      {
+        "title": "No ChatGPT Plus Required",
+        "description": "Unlike using ChatGPT directly, our dedicated caricature tool requires no subscription, no prompt engineering, and no daily image limits. Simply upload and create.",
+        "icon": "RiShieldCheckLine",
+        "image": {
+          "src": "/example/feature-list-1.png",
+          "alt": "No ChatGPT Plus subscription needed"
+        }
+      },
+      {
+        "title": "Real Face Recognition, Not Guesswork",
+        "description": "Our AI analyzes your actual photo to produce a cartoon portrait that truly resembles you. Every caricature captures your unique facial structure, expressions, and proportions.",
+        "icon": "RiUserHeartLine",
+        "image": {
+          "src": "/example/feature-list-2.png",
+          "alt": "Real face recognition technology"
+        }
+      },
+      {
+        "title": "Professional-Grade Output",
+        "description": "Download high-resolution caricature images perfect for social media profiles, printed gifts, business cards, or team page avatars. No watermarks on paid plans.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "/example/feature-list-3.png",
+          "alt": "Professional grade caricature output"
+        }
+      },
+      {
+        "title": "Privacy-First Approach",
+        "description": "Your uploaded photos are processed securely and not stored after generation. Unlike trending ChatGPT caricature methods, we don't access your chat history or personal data.",
+        "icon": "RiLockLine",
+        "image": {
+          "src": "/example/feature-list-4.png",
+          "alt": "Privacy-first photo processing"
+        }
+      }
+    ],
+    "className": "bg-muted"
+  },
+  "features": {
+    "id": "features",
+    "title": "AI Caricature Generator Features",
+    "description": "Everything you need to turn photos into fun, shareable caricature portraits — powered by state-of-the-art AI technology.",
+    "items": [
+      {
+        "title": "Advanced AI Caricature Engine",
+        "description": "Powered by cutting-edge image generation models that understand facial features, artistic styles, and the nuances that make caricature drawings fun and recognizable.",
+        "icon": "RiMagicLine"
+      },
+      {
+        "title": "6 Trending Caricature Styles",
+        "description": "From classic hand-drawn exaggerated portraits to 3D Pixar, Chibi anime, Pop Art, Comic, and Job styles — pick any look that fits your personality.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Multilingual text rendering",
-        "description": "Render clear text across languages and support multilingual layouts.",
-        "icon": "RiLandscapeLine"
+        "title": "Job & Hobby Personalization",
+        "description": "Add your profession, hobbies, and personality traits to get a custom cartoon portrait surrounded by relevant props and themed elements.",
+        "icon": "RiBriefcaseLine"
       },
       {
-        "title": "Strong instruction following",
-        "description": "The Z Image model follows complex prompts and keeps composition and style consistent.",
-        "icon": "Layers"
+        "title": "Fast Generation in Seconds",
+        "description": "Upload a photo, pick a style, and receive your finished caricature portrait in under a minute — no design skills or complex prompts needed.",
+        "icon": "RiFlashlightLine"
       },
       {
-        "title": "Efficient 6B distilled model",
-        "description": "A lightweight Z Image AI stack that fits 16GB VRAM-class devices without sacrificing quality.",
+        "title": "High-Resolution Downloads",
+        "description": "Download your cartoon portrait in crisp, high-quality resolution perfect for social media profiles, gifts, merchandise, or printing.",
         "icon": "RiAspectRatioLine"
       },
       {
-        "title": "Creative control",
-        "description": "Guide style, mood, and camera cues to iterate quickly without starting over.",
-        "icon": "RiFlashlightLine"
+        "title": "Share-Ready for Social Media",
+        "description": "Your finished caricature is optimized for sharing on Instagram, Twitter/X, TikTok, LinkedIn, and WhatsApp — join the viral caricature trend.",
+        "icon": "Layers"
       }
     ]
   },
@@ -273,45 +384,54 @@
   },
   "faq": {
     "id": "faq",
-    "title": "Frequently asked questions",
+    "title": "AI Caricature Generator FAQ",
+    "description": "Everything you need to know about creating ChatGPT Caricature portraits.",
     "items": [
       {
-        "question": "What is Z Image Turbo?",
-        "answer": "It is a distilled 6B z image model designed for fast text-to-image generation with photorealistic quality and multilingual text rendering."
+        "question": "What is a ChatGPT Caricature?",
+        "answer": "A ChatGPT Caricature is a viral AI art trend from 2026 where advanced AI models transform a selfie into a fun, exaggerated cartoon portrait. The trend started when users asked ChatGPT to create playful caricatures based on their photos and personal details. Our dedicated AI caricature generator takes this concept further — you get professional-quality caricature portraits from your photos without needing a ChatGPT Plus subscription."
       },
       {
-        "question": "How fast is the model?",
-        "answer": "It reaches strong results in 8 NFEs, enabling sub-second latency on modern GPUs and quick outputs on consumer hardware."
+        "question": "How does the AI caricature generator work?",
+        "answer": "Upload a clear face photo, select one of our 6 caricature styles (Classic, Job, 3D Cartoon, Comic, Chibi, or Pop Art), optionally add your job title or hobbies, and click Create. Our AI analyzes your facial features — structure, expression, and proportions — then generates a personalized cartoon portrait in seconds."
       },
       {
-        "question": "What does Z Image AI mean here?",
-        "answer": "Z Image AI refers to the Z-Image family of models; this is the speed-optimized variant for production use."
+        "question": "What photo works best for AI caricatures?",
+        "answer": "A clear, well-lit face photo produces the best results. Front-facing portraits with even lighting give the most accurate and fun caricature output. Avoid group photos, heavy filters, sunglasses, or images where the face is partially obscured."
       },
       {
-        "question": "Which models power text-to-image and image-to-image?",
-        "answer": "Text-to-image uses Z Image Turbo. Image-to-image uses Seedream 4.5. We also rely on third-party model and infrastructure providers to deliver the service. Z Image Turbo is an independent product and is not affiliated with or endorsed by third-party model providers."
+        "question": "How much does it cost to create a caricature?",
+        "answer": "Each caricature costs 20 credits. Start with our Credits Pack at $4.9 for 400 credits (20 caricatures), or subscribe to the monthly plan at $9.9/month for 500 credits (25 caricatures per month). Both options include full high-resolution downloads."
       },
       {
-        "question": "How does it compare with qwen image?",
-        "answer": "If you are evaluating qwen image, test the same prompts and compare speed, fidelity, and text rendering to choose the best fit."
+        "question": "Can I use my caricature for commercial purposes?",
+        "answer": "Yes! You own the rights to your generated caricature portraits. Use them freely for social media profiles, business cards, team pages, gifts, merchandise, marketing materials, and more."
       },
       {
-        "question": "Can I use outputs commercially?",
-        "answer": "Yes, subject to your content rights and applicable licensing terms."
+        "question": "What caricature styles are available?",
+        "answer": "We offer 6 distinct styles: Classic Caricature (traditional big-head with exaggerated features), Job Caricature (profession-themed with work props), 3D Cartoon (Pixar/Disney-inspired), Comic Style (superhero comic book look), Chibi (cute anime proportions), and Pop Art (bold colors inspired by Andy Warhol)."
       },
       {
-        "question": "How do I craft effective prompts?",
-        "answer": "Start with subject and style, add lighting and camera cues, then specify layout or text to guide the model."
+        "question": "How is this different from using ChatGPT directly?",
+        "answer": "Unlike using ChatGPT directly, our tool is purpose-built for caricature creation. You don't need a paid ChatGPT subscription, there's no prompt engineering required, and there are no daily image limits. We also offer 6 specialized caricature styles, real face recognition from your uploaded photo, and consistent high-quality results every time."
+      },
+      {
+        "question": "Is my photo data safe and private?",
+        "answer": "Absolutely. Your uploaded photos are processed securely and are not stored permanently after generation. Unlike the ChatGPT caricature trend that relies on your chat history, our tool only uses the photo you upload — no personal data mining."
+      },
+      {
+        "question": "Can I create a 'me and my job' caricature?",
+        "answer": "Yes! The Job Caricature style is designed exactly for the viral 'me and my job' trend. Enter your profession and the AI will surround your cartoon portrait with relevant tools, props, and workplace elements that represent your career."
       }
     ]
   },
   "cta": {
     "id": "cta",
-    "title": "Create with Z Image Turbo",
-    "description": "Generate photorealistic images in seconds.",
+    "title": "Create Your AI Caricature Portrait Now",
+    "description": "Join the viral trend — turn your photo into a fun, shareable cartoon portrait with our ChatGPT Caricature generator. No design skills needed.",
     "buttons": [
       {
-        "title": "Try Z Image Turbo",
+        "title": "Create Your Caricature",
         "url": "/create",
         "target": "_self",
         "icon": "Wand"
@@ -325,32 +445,32 @@
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "Z Image Turbo",
-      "description": "A fast text-to-image generator built on the Z-Image family, combining speed, quality, and multilingual text rendering.",
+      "title": "ChatGPT Caricature",
+      "description": "The viral AI caricature generator — turn your photos into fun cartoon portraits. Choose from 6 unique styles and create your caricature in seconds.",
       "logo": {
         "src": "/logo.png",
-        "alt": "Z Image Turbo"
+        "alt": "ChatGPT Caricature Generator"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Product",
           "children": [
             {
-              "title": "Create",
+              "title": "Create Caricature",
               "url": "/create",
               "target": "_self"
             },
             {
-              "title": "Features",
-              "url": "/#features",
+              "title": "Pricing",
+              "url": "/pricing",
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcases",
+              "title": "Gallery",
+              "url": "/showcases",
               "target": "_self"
             },
             {
@@ -361,31 +481,31 @@
           ]
         },
         {
-          "title": "Prompts",
+          "title": "Styles",
           "children": [
             {
-              "title": "3D Digital Human Comics",
-              "url": "/create?prompt=3d-digital-human-comics",
+              "title": "Classic Caricature",
+              "url": "/create",
               "target": "_self"
             },
             {
-              "title": "Vertical fisheye selfie",
-              "url": "/create?prompt=vertical-fisheye-selfie",
+              "title": "3D Cartoon",
+              "url": "/create",
               "target": "_self"
             },
             {
-              "title": "GTA VICE CITY",
-              "url": "/create?prompt=gta-vice-city",
+              "title": "Chibi Style",
+              "url": "/create",
               "target": "_self"
             },
             {
-              "title": "Photo restoration",
-              "url": "/create?prompt=photo-restoration",
+              "title": "Pop Art",
+              "url": "/create",
               "target": "_self"
             },
             {
-              "title": "3D caricature of celebrity",
-              "url": "/create?prompt=3d-caricature-of-celebrity",
+              "title": "ChatGPT Caricature",
+              "url": "/chatgpt-caricature",
               "target": "_self"
             }
           ]
@@ -443,11 +563,11 @@
             },
             {
               "title": "Startup Fame",
-              "url": "https://startupfa.me/s/z-image-turbo-5?utm_source=zimageturbo.site",
+              "url": "https://startupfa.me/s/chatgpt-caricature?utm_source=chatgptcaricature.pro",
               "target": "_blank",
               "image": {
                 "src": "https://startupfa.me/badges/featured-badge-small.webp",
-                "alt": "Z Image Turbo - Featured on Startup Fame",
+                "alt": "ChatGPT Caricature - Featured on Startup Fame",
                 "width": 224,
                 "height": 36,
                 "className": "w-[224px] h-auto"
