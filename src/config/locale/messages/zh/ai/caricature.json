@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "AI 漫画生成器 - 将照片转为卡通肖像",
-    "description": "使用AI将您的照片转换为有趣的漫画肖像。从11种独特风格中选择，包括盲盒公仔、3D粘土、辛普森、南方公园、讽刺漫画等。"
+    "description": "使用AI将您的照片转换为有趣的漫画肖像。从9种独特风格中选择，包括盲盒公仔、3D粘土、南方公园等。"
   },
   "page": {
     "title": "AI 漫画生成器",
@@ -75,17 +75,9 @@
       "label": "3D粘土风",
       "description": "手工黏土动画风格，可见指纹痕迹，温润质感，Aardman动画魅力"
     },
-    "tv-satire-simpsons": {
-      "label": "辛普森风格",
-      "description": "标志性黄色皮肤的Springfield居民，大眼睛，无发际线，四指手"
-    },
     "tv-satire-southpark": {
       "label": "南方公园风格",
       "description": "纸片剪纸建筑纸风格，粗糙的硬纸板美学和矮胖比例"
-    },
-    "editorial-art": {
-      "label": "美式讽刺漫画",
-      "description": "政治漫画讽刺风，夸张五官，粗糙交叉阴影，Mad杂志能量"
     },
     "3d-cartoon": {
       "label": "3D卡通",

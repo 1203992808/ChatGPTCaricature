@@ -14,16 +14,16 @@ export const dynamic = 'force-dynamic';
 export async function generateMetadata(): Promise<Metadata> {
   const appUrl = envConfigs.app_url;
   return {
-    title: 'AI Caricature Maker - 11 ChatGPT Styles | Action Figure & Simpsons',
+    title: 'AI Caricature Maker - 9 ChatGPT Styles | Action Figure & Claymation',
     description:
-      'Try the viral ChatGPT caricature trend with 11 professional AI styles. Create Action Figure, Simpsons, Claymation & more cartoon portraits instantly.',
+      'Try the viral ChatGPT caricature trend with 9 professional AI styles. Create Action Figure, Claymation, South Park & more cartoon portraits instantly.',
     alternates: {
       canonical: `${appUrl}/chatgpt-caricature`,
     },
     openGraph: {
-      title: 'AI Caricature Maker - 11 ChatGPT Styles | Action Figure & Simpsons',
+      title: 'AI Caricature Maker - 9 ChatGPT Styles | Action Figure & Claymation',
       description:
-        'Make viral ChatGPT caricatures with 11 unique AI styles - Action Figure, Simpsons, South Park, Claymation & more. Professional online generator.',
+        'Make viral ChatGPT caricatures with 9 unique AI styles - Action Figure, South Park, Claymation & more. Professional online generator.',
       url: `${appUrl}/chatgpt-caricature`,
       type: 'website',
     },
@@ -56,7 +56,7 @@ export default async function ChatGPTCaricaturePage({
       hero: {
         title: 'ChatGPT Caricature',
         description:
-          'The viral AI caricature trend — transform any photo into a hilarious cartoon portrait in seconds. Choose from 11 unique styles including Action Figure, Simpsons, Claymation, and more. Personalize with your job, hobbies, and personality.',
+          'The viral AI caricature trend — transform any photo into a hilarious cartoon portrait in seconds. Choose from 9 unique styles including Action Figure, Claymation, South Park, and more. Personalize with your job, hobbies, and personality.',
         background_image: {
           src: '/imgs/bg/bg.jpg',
           alt: 'ChatGPT Caricature hero background',
