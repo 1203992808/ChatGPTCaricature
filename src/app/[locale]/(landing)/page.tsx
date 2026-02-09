@@ -50,7 +50,7 @@ export default async function LandingPage({
         const sectionData = t.raw(section) as Section;
         acc[section] = {
           ...sectionData,
-          title: 'ChatGPT Caricature Generator',
+          title: 'ChatGPT Caricature',
           description: '',
           announcement: {
             title: 'The  AI caricature trend everyone is talking about',
