@@ -4,7 +4,12 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { envConfigs } from '@/config';
 import { getThemePage } from '@/core/theme';
 import { CaricatureGenerator } from '@/shared/blocks/generator';
-import { DynamicPage } from '@/shared/types/blocks/landing';
+import {
+  buildFAQSchema,
+  buildWebApplicationSchema,
+  JsonLd,
+} from '@/shared/components/seo/json-ld';
+import { DynamicPage, Section } from '@/shared/types/blocks/landing';
 import { ShowcasesFlowDynamic } from '@/themes/default/blocks/showcases-flow-dynamic';
 
 import { getLatestShowcases } from '@/shared/models/showcase';
@@ -54,7 +59,7 @@ export default async function ChatGPTCaricaturePage({
   const page: DynamicPage = {
     sections: {
       hero: {
-        title: 'ChatGPT Caricature',
+        title: 'AI Caricature Maker — Create ChatGPT Cartoon Portraits Online',
         description:
           'The viral AI caricature trend — transform any photo into a hilarious cartoon portrait in seconds. Choose from 9 unique styles including Action Figure, Claymation, South Park, and more. Personalize with your job, hobbies, and personality.',
         background_image: {
@@ -88,5 +93,32 @@ export default async function ChatGPTCaricaturePage({
 
   const Page = await getThemePage('dynamic-page');
 
-  return <Page locale={locale} page={page} />;
+  // ── JSON-LD Structured Data ──
+  const appUrl = envConfigs.app_url;
+
+  const faqData = tl.raw('faq') as Section;
+  const faqSchema = buildFAQSchema(
+    (faqData.items || []).map((item: any) => ({
+      question: item.question || item.title || '',
+      answer: item.answer || item.description || '',
+    }))
+  );
+
+  const webAppSchema = buildWebApplicationSchema({
+    name: 'AI Caricature Maker',
+    description:
+      'Try the viral ChatGPT caricature trend with 9 professional AI styles. Create Action Figure, Claymation, South Park and more cartoon portraits instantly.',
+    url: `${appUrl}/chatgpt-caricature`,
+    imageUrl: `${appUrl}/example/classic-style.png`,
+    applicationCategory: 'DesignApplication',
+    offers: { price: '4.9', priceCurrency: 'USD' },
+  });
+
+  return (
+    <>
+      <JsonLd data={faqSchema} />
+      <JsonLd data={webAppSchema} />
+      <Page locale={locale} page={page} />
+    </>
+  );
 }

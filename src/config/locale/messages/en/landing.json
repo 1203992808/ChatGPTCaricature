@@ -5,7 +5,7 @@
       "title": "ChatGPT Caricature",
       "logo": {
         "src": "/logo.png",
-        "alt": "ChatGPT Caricature Generator logo"
+        "alt": "ChatGPT Caricature Generator — AI cartoon portrait maker logo"
       },
       "url": "/"
     },
@@ -66,7 +66,7 @@
     "show_award": false,
     "background_image": {
       "src": "/imgs/bg/bg.jpg",
-      "alt": "ChatGPT Caricature Generator hero background"
+      "alt": "ChatGPT Caricature Generator background — AI-powered cartoon portrait creation"
     }
   },
   "showcases-flow": {
@@ -79,7 +79,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/1.jpeg",
-          "alt": "Classic caricature portrait example"
+          "alt": "ChatGPT caricature portrait example — classic style AI cartoon drawing from photo"
         }
       },
       {
@@ -87,7 +87,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/2.jpeg",
-          "alt": "3D cartoon caricature example"
+          "alt": "3D cartoon caricature portrait created with ChatGPT AI — Pixar-style character"
         }
       },
       {
@@ -95,7 +95,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/3.jpeg",
-          "alt": "Chibi caricature style example"
+          "alt": "Chibi anime caricature style — cute kawaii AI cartoon portrait from selfie"
         }
       },
       {
@@ -103,7 +103,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/4.jpeg",
-          "alt": "Pop art caricature portrait example"
+          "alt": "Pop art caricature portrait — Andy Warhol-inspired bold AI cartoon drawing"
         }
       },
       {
@@ -111,7 +111,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/5.jpeg",
-          "alt": "Comic style caricature drawing"
+          "alt": "Comic book style caricature — superhero-themed AI cartoon portrait with bold lines"
         }
       },
       {
@@ -119,7 +119,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/6.jpeg",
-          "alt": "Job caricature with profession props"
+          "alt": "Job caricature with profession props — viral 'me and my job' AI cartoon trend"
         }
       },
       {
@@ -127,7 +127,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/7.jpeg",
-          "alt": "Funny exaggerated cartoon portrait"
+          "alt": "Funny exaggerated cartoon portrait — ChatGPT AI caricature with big head style"
         }
       },
       {
@@ -135,7 +135,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/8.jpeg",
-          "alt": "AI-generated caricature from photo"
+          "alt": "AI-generated caricature from photo — high-resolution cartoon portrait download"
         }
       },
       {
@@ -143,7 +143,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/9.jpeg",
-          "alt": "Personalized cartoon portrait with hobbies"
+          "alt": "Personalized cartoon portrait with hobbies — custom AI caricature generator result"
         }
       },
       {
@@ -151,7 +151,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/10.jpeg",
-          "alt": "Viral ChatGPT caricature trend result"
+          "alt": "Viral ChatGPT caricature trend result — shareable AI cartoon portrait for social media"
         }
       }
     ]
@@ -167,7 +167,7 @@
     "description": "ChatGPT Caricature is the viral AI art trend sweeping social media in 2026. Users upload a selfie and receive a playful, exaggerated cartoon portrait that highlights their facial features, profession, and personality. Our AI caricature generator makes this even easier — no ChatGPT Plus subscription needed. Simply upload a photo, choose a style, and get your personalized caricature portrait in seconds.",
     "image": {
       "src": "/imgs/showcases/image.png",
-      "alt": "ChatGPT Caricature example portrait"
+      "alt": "ChatGPT Caricature example — AI-generated cartoon portrait from selfie photo"
     },
     "items": [
       {
@@ -176,7 +176,7 @@
         "icon": "RiImageLine",
         "image": {
           "src": "/imgs/features/1.png",
-          "alt": "Upload photo for AI caricature"
+          "alt": "Upload photo for AI caricature — face detection and cartoon portrait generation"
         }
       },
       {
@@ -185,7 +185,7 @@
         "icon": "RiMagicLine",
         "image": {
           "src": "/imgs/features/2.png",
-          "alt": "Multiple caricature styles to choose"
+          "alt": "9 ChatGPT caricature styles — Classic, 3D, Comic, Chibi, Pop Art, Action Figure and more"
         }
       },
       {
@@ -194,7 +194,7 @@
         "icon": "RiUserStarLine",
         "image": {
           "src": "/imgs/features/3.png",
-          "alt": "Personalize cartoon portrait with job details"
+          "alt": "Personalize AI cartoon portrait with job title and hobbies — custom caricature details"
         }
       },
       {
@@ -203,7 +203,7 @@
         "icon": "RiFlashlightLine",
         "image": {
           "src": "/imgs/features/4.png",
-          "alt": "Instant caricature generation results"
+          "alt": "Instant AI caricature results — high-resolution cartoon portrait download in seconds"
         }
       }
     ],
@@ -221,7 +221,7 @@
         "icon": "RiQuillPenLine",
         "image": {
           "src": "/example/classic-style.png",
-          "alt": "Classic caricature style with exaggerated features"
+          "alt": "Classic ChatGPT caricature style — exaggerated big-head cartoon portrait with humor"
         }
       },
       {
@@ -230,7 +230,7 @@
         "icon": "RiBriefcaseLine",
         "image": {
           "src": "/example/job-style.png",
-          "alt": "Job caricature with profession elements"
+          "alt": "Job caricature — viral 'me and my job' AI cartoon with profession props and tools"
         }
       },
       {
@@ -239,7 +239,7 @@
         "icon": "RiBox3Line",
         "image": {
           "src": "/example/3D-cartoon-style.png",
-          "alt": "3D cartoon portrait in Pixar style"
+          "alt": "3D cartoon caricature in Pixar Disney style — smooth shading AI character portrait"
         }
       },
       {
@@ -248,7 +248,7 @@
         "icon": "RiFireLine",
         "image": {
           "src": "/example/comic-style.png",
-          "alt": "Comic book style caricature drawing"
+          "alt": "Comic book style AI caricature — superhero halftone cartoon portrait with bold outlines"
         }
       },
       {
@@ -257,7 +257,7 @@
         "icon": "RiHeartLine",
         "image": {
           "src": "/example/chibi-style.png",
-          "alt": "Chibi anime style caricature"
+          "alt": "Chibi anime caricature style — adorable kawaii AI cartoon portrait with large eyes"
         }
       },
       {
@@ -266,7 +266,7 @@
         "icon": "RiPaletteLine",
         "image": {
           "src": "/example/pop-art-style.png",
-          "alt": "Pop art caricature portrait"
+          "alt": "Pop art caricature — Andy Warhol-inspired bold color AI cartoon portrait with halftone"
         }
       }
     ]
@@ -306,7 +306,7 @@
         "icon": "RiShieldCheckLine",
         "image": {
           "src": "/example/feature-list-1.png",
-          "alt": "No ChatGPT Plus subscription needed"
+          "alt": "No ChatGPT Plus subscription needed — dedicated AI caricature tool with no limits"
         }
       },
       {
@@ -315,7 +315,7 @@
         "icon": "RiUserHeartLine",
         "image": {
           "src": "/example/feature-list-2.png",
-          "alt": "Real face recognition technology"
+          "alt": "Real face recognition technology — AI caricature captures your unique facial features"
         }
       },
       {
@@ -324,7 +324,7 @@
         "icon": "RiImageLine",
         "image": {
           "src": "/example/feature-list-3.png",
-          "alt": "Professional grade caricature output"
+          "alt": "Professional high-resolution AI caricature output — ready for print and social media"
         }
       },
       {
@@ -333,7 +333,7 @@
         "icon": "RiLockLine",
         "image": {
           "src": "/example/feature-list-4.png",
-          "alt": "Privacy-first photo processing"
+          "alt": "Privacy-first photo processing — secure AI caricature generation with no data storage"
         }
       }
     ],
@@ -449,7 +449,7 @@
       "description": "The viral AI caricature generator — turn your photos into fun cartoon portraits. Choose from 9 unique styles and create your caricature in seconds.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ChatGPT Caricature Generator"
+        "alt": "ChatGPT Caricature Generator — AI cartoon portrait maker"
       },
       "url": "/"
     },

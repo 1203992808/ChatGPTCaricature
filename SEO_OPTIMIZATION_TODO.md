@@ -21,6 +21,16 @@
 
 ## ✅ 已完成优化
 
+### 2026-02-10
+- [x] 实施FAQPage Schema (首页 + SEO页)
+- [x] 实施HowTo Schema (首页)
+- [x] 实施WebApplication Schema (首页 + SEO页)
+- [x] 实施Organization Schema (首页)
+- [x] 创建可复用JsonLd组件 (`src/shared/components/seo/json-ld.tsx`)
+- [x] 优化首页H1标题（添加副标题"AI Cartoon Portrait Generator — 9 Viral Styles"）
+- [x] 优化SEO页H1标题（使用差异化标题避免竞争）
+- [x] 优化所有图片alt文本（20+张图片，含关键词，50-125字符）
+
 ### 2026-02-09
 - [x] 更新首页landing.json所有"6种风格"为"11种风格"
 - [x] 优化关键词密度到2.62%（目标2%-3%）
@@ -40,7 +50,7 @@
 **预计时间**: 4-6小时
 
 #### 任务清单
-- [ ] **实施FAQPage Schema** (优先级最高)
+- [x] **实施FAQPage Schema** (优先级最高)
   - 文件: `src/app/[locale]/(landing)/page.tsx`
   - 目标: 9个FAQ都添加结构化数据
   - 参考: [Google FAQ Schema文档](https://developers.google.com/search/docs/appearance/structured-data/faqpage)
@@ -65,15 +75,15 @@
   }
   ```
 
-- [ ] **实施HowTo Schema**
+- [x] **实施HowTo Schema**
   - 目标: "How to Create Your AI Caricature Portrait" section
   - 3个步骤都添加结构化数据
 
-- [ ] **实施WebApplication Schema**
+- [x] **实施WebApplication Schema**
   - 描述工具本身
   - 包含聚合评分（AggregateRating）如果有用户评价
 
-- [ ] **实施Organization Schema**
+- [x] **实施Organization Schema**
   - 品牌信息、logo、社交媒体链接
 
 **验证方法**:
@@ -103,7 +113,7 @@ https://validator.schema.org/
   - 格式: 优先使用WebP，保留PNG作为fallback
   - 参考: `public/example/NEW_STYLES_TODO.md`
 
-- [ ] **优化所有图片Alt文本**
+- [x] **优化所有图片Alt文本**
   - 当前: 基础描述
   - 优化: 包含关键词+描述性内容
 
@@ -135,13 +145,13 @@ https://validator.schema.org/
 **预计时间**: 30分钟
 
 #### 任务清单
-- [ ] **优化首页H1**
+- [x] **优化首页H1**
   - 当前: "ChatGPT Caricature"（2词）
   - 建议: "ChatGPT Caricature Generator - Transform Photos into 11 AI Cartoon Styles"
   - 或: "Create Viral ChatGPT Caricatures with 11 AI Styles - Action Figure, Simpsons & More"
   - 文件: `src/app/[locale]/(landing)/page.tsx` (line 53)
 
-- [ ] **优化SEO页面H1**
+- [x] **优化SEO页面H1**
   - 当前: "ChatGPT Caricature"（同首页）
   - 建议: 使用不同但相关的H1避免竞争
   - 如: "Professional ChatGPT Caricature Portraits - 11 AI Styles Online"

@@ -1,7 +1,15 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
+import { envConfigs } from '@/config';
 import { getThemePage } from '@/core/theme';
 import { CaricatureGenerator } from '@/shared/blocks/generator';
+import {
+  buildFAQSchema,
+  buildHowToSchema,
+  buildOrganizationSchema,
+  buildWebApplicationSchema,
+  JsonLd,
+} from '@/shared/components/seo/json-ld';
 import { getLatestShowcases } from '@/shared/models/showcase';
 import { DynamicPage, Section } from '@/shared/types/blocks/landing';
 import { ShowcasesFlowDynamic } from '@/themes/default/blocks/showcases-flow-dynamic';
@@ -100,5 +108,57 @@ export default async function LandingPage({
   // load page component
   const Page = await getThemePage('dynamic-page');
 
-  return <Page locale={locale} page={page} />;
+  // ── JSON-LD Structured Data ──
+  const appUrl = envConfigs.app_url;
+
+  const faqData = t.raw('faq') as Section;
+  const faqSchema = buildFAQSchema(
+    (faqData.items || []).map((item: any) => ({
+      question: item.question || item.title || '',
+      answer: item.answer || item.description || '',
+    }))
+  );
+
+  const howToData = t.raw('howItWorks') as Section;
+  const howToSchema = buildHowToSchema({
+    name: 'How to Create Your AI Caricature Portrait',
+    description:
+      'Turn any photo into a ChatGPT Caricature in 3 simple steps. No drawing skills required.',
+    totalTime: 'PT1M',
+    imageUrl: `${appUrl}/example/classic-style.png`,
+    steps: (howToData.items || []).map((item: any, idx: number) => ({
+      position: idx + 1,
+      name: item.title || '',
+      text: item.description || '',
+    })),
+  });
+
+  const webAppSchema = buildWebApplicationSchema({
+    name: 'ChatGPT Caricature Generator',
+    description:
+      'Create viral ChatGPT caricatures with 9 AI styles including Action Figure, Claymation and South Park. Professional cartoon portraits from any photo in seconds.',
+    url: appUrl,
+    imageUrl: `${appUrl}/example/classic-style.png`,
+    applicationCategory: 'DesignApplication',
+    offers: { price: '4.9', priceCurrency: 'USD' },
+  });
+
+  const orgSchema = buildOrganizationSchema({
+    name: 'ChatGPT Caricature',
+    url: appUrl,
+    logoUrl: `${appUrl}/logo.png`,
+    description:
+      'AI-powered caricature generator — turn your photos into fun cartoon portraits.',
+    email: 'yzshi123@gmail.com',
+  });
+
+  return (
+    <>
+      <JsonLd data={faqSchema} />
+      <JsonLd data={howToSchema} />
+      <JsonLd data={webAppSchema} />
+      <JsonLd data={orgSchema} />
+      <Page locale={locale} page={page} />
+    </>
+  );
 }
