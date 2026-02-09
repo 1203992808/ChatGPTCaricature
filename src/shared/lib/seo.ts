@@ -112,6 +112,10 @@ export function getMetadata(
         index: options.noIndex ? false : true,
         follow: options.noIndex ? false : true,
       },
+
+      other: {
+        'saashub-verification': 'atdlqhc56vgi',
+      },
     };
   };
 }
