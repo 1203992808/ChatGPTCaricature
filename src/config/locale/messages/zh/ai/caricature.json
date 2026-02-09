@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "title": "AI 漫画生成器 - 将照片转为卡通肖像",
+    "description": "使用AI将您的照片转换为有趣的漫画肖像。从11种独特风格中选择，包括盲盒公仔、3D粘土、辛普森、南方公园、讽刺漫画等。"
+  },
+  "page": {
+    "title": "AI 漫画生成器",
+    "description": "上传您的照片，使用AI将其转换为有趣的卡通漫画肖像。"
+  },
+  "generator": {
+    "title": "ChatGPT 漫画生成器",
+    "select_style": "选择您的风格",
+    "upload_photo": "上传您的照片",
+    "upload_photo_hint": "上传清晰的人脸照片以获得最佳效果",
+    "upload_error": "照片上传失败，请重试",
+    "optional_details": "自定义（可选）",
+    "job_title": "职业",
+    "job_title_placeholder": "例如：医生",
+    "hobbies": "爱好",
+    "hobbies_placeholder": "例如：吉他",
+    "personality": "性格",
+    "personality_placeholder": "例如：开朗",
+    "aspect_ratio": "画面比例",
+    "aspect_ratio_square": "正方形 (1:1)",
+    "aspect_ratio_landscape": "横向 (3:2)",
+    "aspect_ratio_portrait": "竖向 (2:3)",
+    "additional_details": "额外细节",
+    "additional_details_placeholder": "您想在漫画中添加的任何额外细节...",
+    "generate": "生成漫画",
+    "checking_account": "检查账户中...",
+    "loading": "加载中...",
+    "generating": "正在创建您的漫画...",
+    "sign_in_to_generate": "登录以生成漫画",
+    "credits_cost": "消耗 {credits} 点数",
+    "credits_remaining": "剩余 {credits} 点数",
+    "buy_credits": "购买点数",
+    "progress": "进度",
+    "result_title": "您的漫画",
+    "no_images_generated": "您的漫画将显示在这里",
+    "upload_and_generate_hint": "上传照片，选择风格，然后点击生成！",
+    "failed_to_load_image": "无法加载图片",
+    "status_pending": "等待模型启动...",
+    "status_processing": "正在创建您的漫画...",
+    "status_success": "漫画创建成功！",
+    "status_failed": "生成失败",
+    "timeout_error": "生成超时。请重试。",
+    "no_results_error": "未返回图片。请重试。",
+    "generation_failed": "无法生成漫画",
+    "query_failed": "查询任务失败",
+    "no_providers_error": "AI 服务不可用。请稍后重试。",
+    "insufficient_credits": "点数不足。请充值以继续创建。",
+    "insufficient_credits_title": "点数不足",
+    "insufficient_credits_description": "您至少需要 {credits} 点数来创建漫画。购买更多点数以继续。",
+    "insufficient_credits_buy": "购买点数",
+    "insufficient_credits_cancel": "取消",
+    "upload_photo_first": "请先上传照片。",
+    "success_message": "漫画创建成功！",
+    "download_success": "图片已下载",
+    "download_failed": "无法下载图片"
+  },
+  "styles": {
+    "classic": {
+      "label": "经典漫画",
+      "description": "传统手绘漫画，夸张大头，粗墨线条和马克笔质感"
+    },
+    "job": {
+      "label": "职场讽刺风",
+      "description": "职场讽刺风格，夸张的专业装备和被迫营业表情"
+    },
+    "action-figure": {
+      "label": "盲盒公仔",
+      "description": "透明包装盒里的收藏公仔，配件卡、背景卡和限定版标签"
+    },
+    "claymation": {
+      "label": "3D粘土风",
+      "description": "手工黏土动画风格，可见指纹痕迹，温润质感，Aardman动画魅力"
+    },
+    "tv-satire-simpsons": {
+      "label": "辛普森风格",
+      "description": "标志性黄色皮肤的Springfield居民，大眼睛，无发际线，四指手"
+    },
+    "tv-satire-southpark": {
+      "label": "南方公园风格",
+      "description": "纸片剪纸建筑纸风格，粗糙的硬纸板美学和矮胖比例"
+    },
+    "editorial-art": {
+      "label": "美式讽刺漫画",
+      "description": "政治漫画讽刺风，夸张五官，粗糙交叉阴影，Mad杂志能量"
+    },
+    "3d-cartoon": {
+      "label": "3D卡通",
+      "description": "高级3D角色渲染，电影级光照和丰富纹理"
+    },
+    "comic": {
+      "label": "美漫风格",
+      "description": "动态漫画书风格，强烈墨线，半色调点和复古美学"
+    },
+    "chibi": {
+      "label": "Q版",
+      "description": "超级变形Q版，2头身比例，闪亮眼睛和赛璐珞着色"
+    },
+    "pop-art": {
+      "label": "波普艺术",
+      "description": "大胆的安迪·沃霍尔风格肖像，丝网印刷效果和饱和色块"
+    }
+  }
+}

@@ -10,6 +10,14 @@ export const authClient = createAuthClient({
     // Avoid amplifying request storms (e.g. during env/db switching in dev).
     retry: 1,
   },
+  // Reduce polling frequency while keeping essential features
+  session: {
+    // Refresh when user switches back to tab (catches logout in other tabs)
+    fetchOnWindowFocus: true,
+    // Check every 5 minutes instead of every few seconds (300000ms = 5 min)
+    // This catches session expiry without spamming the server
+    refetchInterval: 300000, // 5 minutes
+  },
 });
 
 // export default auth client methods
@@ -23,6 +31,11 @@ export function getAuthClient(configs: Record<string, string>) {
     fetchOptions: {
       // Avoid amplifying request storms (e.g. during env/db switching in dev).
       retry: 1,
+    },
+    // Reduce polling frequency while keeping essential features
+    session: {
+      fetchOnWindowFocus: true,
+      refetchInterval: 300000, // 5 minutes
     },
   });
 

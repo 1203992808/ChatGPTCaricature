@@ -113,7 +113,8 @@ export const AppContextProvider = ({ children }: { children: ReactNode }) => {
   const showOneTap = async function (configs: Record<string, string>) {
     try {
       const authClient = getAuthClient(configs);
-      await authClient.oneTap({
+      // Type assertion for oneTap method due to better-auth version mismatch
+      await (authClient as any).oneTap({
         callbackURL: '/',
         onPromptNotification: (notification: any) => {
           // Handle prompt dismissal silently

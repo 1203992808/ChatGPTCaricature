@@ -498,6 +498,8 @@ export function CaricatureGenerator({
 
           setProgress(100);
           resetTaskState();
+          // Update credits after successful generation
+          fetchUserCredits();
           return true;
         }
 
@@ -733,13 +735,16 @@ export function CaricatureGenerator({
                         type="button"
                         onClick={() => setSelectedStyle(style)}
                         className={cn(
-                          'hover:border-primary/50 flex flex-col items-center gap-1 rounded-lg border-2 p-2 transition-all',
+                          'hover:border-primary/50 hover:scale-105 flex flex-col items-center gap-1 rounded-lg border-2 p-2 transition-all duration-200',
                           selectedStyle.key === style.key
-                            ? 'border-primary bg-primary/5 shadow-sm'
-                            : 'border-border'
+                            ? 'border-primary bg-primary/10 shadow-lg ring-2 ring-primary/20 scale-105'
+                            : 'border-border hover:shadow-md'
                         )}
                       >
-                        <div className="bg-muted relative h-16 w-full overflow-hidden rounded-md">
+                        <div className={cn(
+                          "bg-muted relative h-16 w-full overflow-hidden rounded-md transition-all",
+                          selectedStyle.key === style.key && "ring-2 ring-primary/50"
+                        )}>
                           <LazyImage
                             src={style.thumbnail}
                             alt={style.label}
@@ -747,7 +752,10 @@ export function CaricatureGenerator({
                             wrapperClassName="!block h-full w-full"
                           />
                         </div>
-                        <span className="text-center text-xs leading-tight font-medium">
+                        <span className={cn(
+                          "text-center text-xs leading-tight font-medium transition-colors",
+                          selectedStyle.key === style.key && "text-primary font-semibold"
+                        )}>
                           {style.label}
                         </span>
                       </button>
@@ -1115,13 +1123,6 @@ export function CaricatureGenerator({
                   </div>
                 ) : (
                   <div className="flex flex-col items-center justify-center space-y-4">
-                    <div className="relative w-full overflow-hidden rounded-lg border">
-                      <LazyImage
-                        src="/example/classic-style.png"
-                        alt="Example caricature"
-                        className="h-auto w-full"
-                      />
-                    </div>
                     <div className="text-center">
                       <p className="text-muted-foreground text-sm">
                         {t('no_images_generated')}
@@ -1129,6 +1130,36 @@ export function CaricatureGenerator({
                       <p className="text-muted-foreground mt-1 text-xs">
                         {t('upload_and_generate_hint')}
                       </p>
+                    </div>
+                    <div className="relative w-full overflow-hidden rounded-lg border">
+                      <LazyImage
+                        src="/example/classic-style.png"
+                        alt="Example caricature - Classic style"
+                        className="h-auto w-full"
+                      />
+                    </div>
+                    <div className="relative w-full overflow-hidden rounded-lg border">
+                      <LazyImage
+                        src="/example/3D-cartoon-style.png"
+                        alt="Example caricature - 3D Cartoon style"
+                        className="h-auto w-full"
+                      />
+                    </div>
+                    <div className="grid grid-cols-2 gap-3 w-full">
+                      <div className="relative overflow-hidden rounded-lg border">
+                        <LazyImage
+                          src="/example/image.png"
+                          alt="Example caricature"
+                          className="h-auto w-full"
+                        />
+                      </div>
+                      <div className="relative overflow-hidden rounded-lg border">
+                        <LazyImage
+                          src="/example/comic-style.png"
+                          alt="Example caricature - Comic style"
+                          className="h-auto w-full"
+                        />
+                      </div>
                     </div>
                   </div>
                 )}

@@ -180,8 +180,8 @@
         }
       },
       {
-        "title": "6 Unique Caricature Styles",
-        "description": "Choose from Classic Caricature, Job Caricature, 3D Cartoon, Comic Style, Chibi, and Pop Art — each designed to give you a distinct cartoon portrait look.",
+        "title": "11 Unique Caricature Styles",
+        "description": "Choose from Classic, Pro-Roast Job, 3D Cartoon, Comic, Chibi, Pop Art, Action Figure, Claymation, Simpsons, South Park, and Editorial Art — each designed to give you a distinct cartoon portrait look.",
         "icon": "RiMagicLine",
         "image": {
           "src": "/imgs/features/2.png",
@@ -213,7 +213,7 @@
     "block": "features-flow",
     "id": "styles",
     "title": "Explore ChatGPT Caricature Styles",
-    "description": "Every face tells a different story. Pick from 6 AI caricature styles to find the look that matches your personality and vibe.",
+    "description": "Every face tells a different story. Pick from 11 AI caricature styles — from classic to viral trends like Action Figure, Simpsons, and South Park — to find the look that matches your personality.",
     "items": [
       {
         "title": "Classic Caricature",
@@ -284,7 +284,7 @@
       },
       {
         "title": "Choose a Caricature Style",
-        "description": "Pick one of our 6 unique styles — Classic, Job, 3D Cartoon, Comic, Chibi, or Pop Art. Optionally add your profession, hobbies, or personality traits for a personalized touch.",
+        "description": "Pick one of our 11 unique styles — Classic, Pro-Roast, 3D Cartoon, Comic, Chibi, Pop Art, Action Figure, Claymation, Simpsons, South Park, or Editorial Art. Optionally add your profession, hobbies, or personality traits for a personalized touch.",
         "icon": "RiMagicLine"
       },
       {
@@ -350,8 +350,8 @@
         "icon": "RiMagicLine"
       },
       {
-        "title": "6 Trending Caricature Styles",
-        "description": "From classic hand-drawn exaggerated portraits to 3D Pixar, Chibi anime, Pop Art, Comic, and Job styles — pick any look that fits your personality.",
+        "title": "11 Trending Caricature Styles",
+        "description": "From classic hand-drawn exaggerated portraits to viral trends like Action Figure, Claymation, Simpsons, South Park, plus 3D Pixar, Chibi anime, Pop Art, Comic, and Pro-Roast Job styles — pick any look that fits your personality.",
         "icon": "RiUserStarLine"
       },
       {
@@ -393,7 +393,7 @@
       },
       {
         "question": "How does the AI caricature generator work?",
-        "answer": "Upload a clear face photo, select one of our 6 caricature styles (Classic, Job, 3D Cartoon, Comic, Chibi, or Pop Art), optionally add your job title or hobbies, and click Create. Our AI analyzes your facial features — structure, expression, and proportions — then generates a personalized cartoon portrait in seconds."
+        "answer": "Upload a clear face photo, select one of our 11 caricature styles (Classic, Pro-Roast, 3D Cartoon, Comic, Chibi, Pop Art, Action Figure, Claymation, Simpsons, South Park, or Editorial Art), optionally add your job title or hobbies, and click Create. Our AI analyzes your facial features — structure, expression, and proportions — then generates a personalized cartoon portrait in seconds."
       },
       {
         "question": "What photo works best for AI caricatures?",
@@ -409,11 +409,11 @@
       },
       {
         "question": "What caricature styles are available?",
-        "answer": "We offer 6 distinct styles: Classic Caricature (traditional big-head with exaggerated features), Job Caricature (profession-themed with work props), 3D Cartoon (Pixar/Disney-inspired), Comic Style (superhero comic book look), Chibi (cute anime proportions), and Pop Art (bold colors inspired by Andy Warhol)."
+        "answer": "We offer 11 distinct styles: Classic Caricature (traditional big-head with exaggerated features), Pro-Roast Job (profession-themed with work props), 3D Cartoon (Pixar/Disney-inspired), Comic Style (superhero comic book look), Chibi (cute anime proportions), Pop Art (bold colors inspired by Andy Warhol), Action Figure (collectible toy packaging), Claymation (Wallace & Gromit texture), TV Satire - Simpsons (yellow skin), TV Satire - South Park (paper cutout), and Editorial Art (vintage editorial cartoon style)."
       },
       {
         "question": "How is this different from using ChatGPT directly?",
-        "answer": "Unlike using ChatGPT directly, our tool is purpose-built for caricature creation. You don't need a paid ChatGPT subscription, there's no prompt engineering required, and there are no daily image limits. We also offer 6 specialized caricature styles, real face recognition from your uploaded photo, and consistent high-quality results every time."
+        "answer": "Unlike using ChatGPT directly, our tool is purpose-built for caricature creation. You don't need a paid ChatGPT subscription, there's no prompt engineering required, and there are no daily image limits. We also offer 11 specialized caricature styles (including viral trends like Action Figure and TV Satire), real face recognition from your uploaded photo, and consistent high-quality results every time."
       },
       {
         "question": "Is my photo data safe and private?",
@@ -446,7 +446,7 @@
     "id": "footer",
     "brand": {
       "title": "ChatGPT Caricature",
-      "description": "The viral AI caricature generator — turn your photos into fun cartoon portraits. Choose from 6 unique styles and create your caricature in seconds.",
+      "description": "The viral AI caricature generator — turn your photos into fun cartoon portraits. Choose from 11 unique styles and create your caricature in seconds.",
       "logo": {
         "src": "/logo.png",
         "alt": "ChatGPT Caricature Generator"
