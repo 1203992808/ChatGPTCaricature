@@ -125,7 +125,7 @@ export default async function LandingPage({
     description:
       'Turn any photo into a ChatGPT Caricature in 3 simple steps. No drawing skills required.',
     totalTime: 'PT1M',
-    imageUrl: `${appUrl}/example/classic-style.png`,
+    imageUrl: `${appUrl}/example/classic-style.webp`,
     steps: (howToData.items || []).map((item: any, idx: number) => ({
       position: idx + 1,
       name: item.title || '',
@@ -138,7 +138,7 @@ export default async function LandingPage({
     description:
       'Create viral ChatGPT caricatures with 9 AI styles including Action Figure, Claymation and South Park. Professional cartoon portraits from any photo in seconds.',
     url: appUrl,
-    imageUrl: `${appUrl}/example/classic-style.png`,
+    imageUrl: `${appUrl}/example/classic-style.webp`,
     applicationCategory: 'DesignApplication',
     offers: { price: '4.9', priceCurrency: 'USD' },
   });

@@ -1133,14 +1133,14 @@ export function CaricatureGenerator({
                     </div>
                     <div className="relative w-full overflow-hidden rounded-lg border">
                       <LazyImage
-                        src="/example/classic-style.png"
+                        src="/example/classic-style.webp"
                         alt="Example caricature - Classic style"
                         className="h-auto w-full"
                       />
                     </div>
                     <div className="relative w-full overflow-hidden rounded-lg border">
                       <LazyImage
-                        src="/example/3D-cartoon-style.png"
+                        src="/example/3D-cartoon-style.webp"
                         alt="Example caricature - 3D Cartoon style"
                         className="h-auto w-full"
                       />
@@ -1148,14 +1148,14 @@ export function CaricatureGenerator({
                     <div className="grid grid-cols-2 gap-3 w-full">
                       <div className="relative overflow-hidden rounded-lg border">
                         <LazyImage
-                          src="/example/image.png"
+                          src="/example/image.webp"
                           alt="Example caricature"
                           className="h-auto w-full"
                         />
                       </div>
                       <div className="relative overflow-hidden rounded-lg border">
                         <LazyImage
-                          src="/example/comic-style.png"
+                          src="/example/comic-style.webp"
                           alt="Example caricature - Comic style"
                           className="h-auto w-full"
                         />

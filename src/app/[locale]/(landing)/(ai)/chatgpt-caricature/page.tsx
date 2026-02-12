@@ -63,7 +63,7 @@ export default async function ChatGPTCaricaturePage({
         description:
           'The viral AI caricature trend — transform any photo into a hilarious cartoon portrait in seconds. Choose from 9 unique styles including Action Figure, Claymation, South Park, and more. Personalize with your job, hobbies, and personality.',
         background_image: {
-          src: '/imgs/bg/bg.jpg',
+          src: '/imgs/bg/bg.webp',
           alt: 'ChatGPT Caricature hero background',
         },
       },
@@ -109,7 +109,7 @@ export default async function ChatGPTCaricaturePage({
     description:
       'Try the viral ChatGPT caricature trend with 9 professional AI styles. Create Action Figure, Claymation, South Park and more cartoon portraits instantly.',
     url: `${appUrl}/chatgpt-caricature`,
-    imageUrl: `${appUrl}/example/classic-style.png`,
+    imageUrl: `${appUrl}/example/classic-style.webp`,
     applicationCategory: 'DesignApplication',
     offers: { price: '4.9', priceCurrency: 'USD' },
   });
