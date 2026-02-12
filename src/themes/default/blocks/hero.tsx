@@ -1,34 +1,28 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import { ArrowRight } from 'lucide-react';
 
 import { Link } from '@/core/i18n/navigation';
 import { LazyImage, SmartIcon } from '@/shared/blocks/common';
-import { AnimatedGridPattern } from '@/shared/components/ui/animated-grid-pattern';
 import { Button } from '@/shared/components/ui/button';
-import { Highlighter } from '@/shared/components/ui/highlighter';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
 
 import { SocialAvatars } from './social-avatars';
 
-const createFadeInVariant = (delay: number) => ({
-  initial: {
-    opacity: 0,
-    y: 20,
-    filter: 'blur(6px)',
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-    filter: 'blur(0px)',
-  },
-  transition: {
-    duration: 0.6,
-    delay,
-    ease: [0.22, 1, 0.36, 1] as const,
-  },
+const AnimatedGridPattern = dynamic(
+  () =>
+    import('@/shared/components/ui/animated-grid-pattern').then(
+      (m) => m.AnimatedGridPattern
+    ),
+  { ssr: false }
+);
+
+// CSS-based fade-in animation style helper
+const fadeInStyle = (delay: number): React.CSSProperties => ({
+  opacity: 0,
+  animation: `heroFadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) ${delay}s forwards`,
 });
 
 export function Hero({
@@ -46,6 +40,11 @@ export function Hero({
 
   return (
     <>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `@keyframes heroFadeIn{from{opacity:0;transform:translateY(20px);filter:blur(6px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}`,
+        }}
+      />
       <section
         id={section.id}
         className={cn(
@@ -55,7 +54,7 @@ export function Hero({
         )}
       >
         <div className="relative mx-auto max-w-5xl px-4 text-center">
-          <motion.div {...createFadeInVariant(0.15)}>
+          <div style={fadeInStyle(0.15)}>
             {texts && texts.length > 0 ? (
               <h1 className="text-5xl font-extrabold tracking-tight text-balance sm:mt-12 sm:text-7xl">
                 <span className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent dark:from-indigo-400 dark:via-purple-400 dark:to-pink-400">
@@ -86,10 +85,10 @@ export function Hero({
                 {section.title}
               </h1>
             )}
-          </motion.div>
+          </div>
 
           {section.announcement && (
-            <motion.div {...createFadeInVariant(0.2)} className="mt-3 flex justify-center">
+            <div style={fadeInStyle(0.2)} className="mt-3 flex justify-center">
               <Link
                 href={section.announcement.url || ''}
                 target={section.announcement.target || '_self'}
@@ -111,18 +110,18 @@ export function Hero({
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           )}
 
-          <motion.p
-            {...createFadeInVariant(0.3)}
+          <p
+            style={fadeInStyle(0.3)}
             className="text-muted-foreground mt-3 mb-5 text-lg text-balance"
             dangerouslySetInnerHTML={{ __html: section.description ?? '' }}
           />
 
           {section.buttons && (
-            <motion.div
-              {...createFadeInVariant(0.45)}
+            <div
+              style={fadeInStyle(0.45)}
               className="flex items-center justify-center gap-4"
             >
               {section.buttons.map((button, idx) => (
@@ -142,40 +141,34 @@ export function Hero({
                   </Link>
                 </Button>
               ))}
-            </motion.div>
+            </div>
           )}
 
           {section.tip && (
-            <motion.p
-              {...createFadeInVariant(0.6)}
+            <p
+              style={fadeInStyle(0.6)}
               className="text-muted-foreground mt-6 block text-center text-sm"
               dangerouslySetInnerHTML={{ __html: section.tip ?? '' }}
             />
           )}
 
           {section.show_avatars && (
-            <motion.div {...createFadeInVariant(0.75)}>
+            <div style={fadeInStyle(0.75)}>
               <SocialAvatars tip={section.avatars_tip || ''} />
-            </motion.div>
+            </div>
           )}
         </div>
 
         {section.component && (
-          <motion.div {...createFadeInVariant(0.45)}>
+          <div style={fadeInStyle(0.45)}>
             {section.component}
-          </motion.div>
+          </div>
         )}
       </section>
       {section.image && (
-        <motion.section
+        <section
           className="border-foreground/10 relative mt-8 border-y sm:mt-16"
-          initial={{ opacity: 0, y: 20, scale: 0.98 }}
-          animate={{ opacity: 1, y: 0, scale: 1 }}
-          transition={{
-            delay: 0.9,
-            duration: 0.7,
-            ease: [0.22, 1, 0.36, 1] as const,
-          }}
+          style={fadeInStyle(0.9)}
         >
           <div className="relative z-10 mx-auto max-w-6xl border-x px-3">
             <div className="border-x">
@@ -195,7 +188,7 @@ export function Hero({
               />
             </div>
           </div>
-        </motion.section>
+        </section>
       )}
 
       {section.background_image ? (

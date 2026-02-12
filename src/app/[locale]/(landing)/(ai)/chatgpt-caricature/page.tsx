@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { envConfigs } from '@/config';
 import { getThemePage } from '@/core/theme';
-import { CaricatureGenerator } from '@/shared/blocks/generator';
+import { CaricatureGeneratorLazy } from '@/shared/blocks/generator/caricature-lazy';
 import {
   buildFAQSchema,
   buildWebApplicationSchema,
@@ -14,7 +14,7 @@ import { ShowcasesFlowDynamic } from '@/themes/default/blocks/showcases-flow-dyn
 
 import { getLatestShowcases } from '@/shared/models/showcase';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 60;
 
 export async function generateMetadata(): Promise<Metadata> {
   const appUrl = envConfigs.app_url;
@@ -69,7 +69,7 @@ export default async function ChatGPTCaricaturePage({
       },
       generator: {
         component: (
-          <CaricatureGenerator
+          <CaricatureGeneratorLazy
             srOnlyTitle={tc.raw('generator.title')}
           />
         ),

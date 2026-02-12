@@ -1,22 +1,26 @@
+import dynamic from 'next/dynamic';
+
 import { getThemeBlock } from '@/core/theme';
 import type { DynamicPage as DynamicPageType } from '@/shared/types/blocks/landing';
-import {
-  CTA,
-  FAQ,
-  Features,
-  FeaturesAccordion,
-  FeaturesFlow,
-  FeaturesList,
-  FeaturesMedia,
-  FeaturesStep,
-  Hero,
-  Logos,
-  Showcases,
-  ShowcasesFlow,
-  Stats,
-  Subscribe,
-  Testimonials,
-} from '@/themes/default/blocks';
+
+// Eagerly load Hero (always above-the-fold)
+import { Hero } from '@/themes/default/blocks/hero';
+
+// Lazily load all other blocks – they are below the fold or rarely used
+const CTA = dynamic(() => import('@/themes/default/blocks/cta').then((m) => m.CTA));
+const FAQ = dynamic(() => import('@/themes/default/blocks/faq').then((m) => m.FAQ));
+const Features = dynamic(() => import('@/themes/default/blocks/features').then((m) => m.Features));
+const FeaturesAccordion = dynamic(() => import('@/themes/default/blocks/features-accordion').then((m) => m.FeaturesAccordion));
+const FeaturesFlow = dynamic(() => import('@/themes/default/blocks/features-flow').then((m) => m.FeaturesFlow));
+const FeaturesList = dynamic(() => import('@/themes/default/blocks/features-list').then((m) => m.FeaturesList));
+const FeaturesMedia = dynamic(() => import('@/themes/default/blocks/features-media').then((m) => m.FeaturesMedia));
+const FeaturesStep = dynamic(() => import('@/themes/default/blocks/features-step').then((m) => m.FeaturesStep));
+const Logos = dynamic(() => import('@/themes/default/blocks/logos').then((m) => m.Logos));
+const Showcases = dynamic(() => import('@/themes/default/blocks/showcases').then((m) => m.Showcases));
+const ShowcasesFlow = dynamic(() => import('@/themes/default/blocks/showcases-flow').then((m) => m.ShowcasesFlow));
+const Stats = dynamic(() => import('@/themes/default/blocks/stats').then((m) => m.Stats));
+const Subscribe = dynamic(() => import('@/themes/default/blocks/subscribe').then((m) => m.Subscribe));
+const Testimonials = dynamic(() => import('@/themes/default/blocks/testimonials').then((m) => m.Testimonials));
 
 export default async function DynamicPage({
   locale,

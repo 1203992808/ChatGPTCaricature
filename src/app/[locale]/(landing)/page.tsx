@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { envConfigs } from '@/config';
 import { getThemePage } from '@/core/theme';
-import { CaricatureGenerator } from '@/shared/blocks/generator';
+import { CaricatureGeneratorLazy } from '@/shared/blocks/generator/caricature-lazy';
 import {
   buildFAQSchema,
   buildHowToSchema,
@@ -14,8 +14,7 @@ import { getLatestShowcases } from '@/shared/models/showcase';
 import { DynamicPage, Section } from '@/shared/types/blocks/landing';
 import { ShowcasesFlowDynamic } from '@/themes/default/blocks/showcases-flow-dynamic';
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+export const revalidate = 60;
 
 export default async function LandingPage({
   params,
@@ -69,7 +68,7 @@ export default async function LandingPage({
           image: undefined,
           image_invert: undefined,
           component: (
-            <CaricatureGenerator
+            <CaricatureGeneratorLazy
               srOnlyTitle={tc.raw('generator.title')}
               className="py-6 md:py-8"
             />

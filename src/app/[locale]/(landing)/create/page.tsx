@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 import { getThemePage } from '@/core/theme';
-import { CaricatureGenerator } from '@/shared/blocks/generator';
+import { CaricatureGeneratorLazy } from '@/shared/blocks/generator/caricature-lazy';
 import { getMetadata } from '@/shared/lib/seo';
 import { DynamicPage } from '@/shared/types/blocks/landing';
 
@@ -30,7 +30,7 @@ export default async function CreatePage({
         description: t.raw('page.description'),
       },
       generator: {
-        component: <CaricatureGenerator srOnlyTitle={tc.raw('generator.title')} />,
+        component: <CaricatureGeneratorLazy srOnlyTitle={tc.raw('generator.title')} />,
       },
     },
   };

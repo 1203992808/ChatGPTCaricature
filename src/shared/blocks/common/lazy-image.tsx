@@ -1,6 +1,6 @@
 'use client';
 
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { cn } from '@/shared/lib/utils';
 
 interface LazyImageProps {
   src: string;
@@ -36,16 +36,17 @@ export function LazyImage({
   ...props
 }: LazyImageProps) {
   return (
-    <LazyLoadImage
+    <img
       src={src}
       alt={alt}
-      width={width}
-      height={height}
-      effect="blur" // 支持 blur、opacity 等
-      placeholderSrc={placeholderSrc} // 可选
-      className={className}
+      width={fill ? undefined : width}
+      height={fill ? undefined : height}
+      title={title}
+      loading={priority ? 'eager' : 'lazy'}
+      decoding="async"
+      className={cn(fill && 'absolute inset-0 h-full w-full', className)}
       style={style}
-      afterLoad={onLoad} // LazyLoadImage uses afterLoad for onLoad
+      onLoad={onLoad}
       onError={onError}
       {...props}
     />

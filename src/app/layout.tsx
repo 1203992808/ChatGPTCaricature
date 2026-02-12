@@ -1,9 +1,17 @@
 import '@/config/style/global.css';
 
+import { Poppins } from 'next/font/google';
 import { getLocale, setRequestLocale } from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
 
 import { envConfigs } from '@/config';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  display: 'swap',
+  variable: '--font-poppins',
+});
 import { locales } from '@/config/locale';
 import { getAllConfigs } from '@/shared/models/config';
 import { getAdsService } from '@/shared/services/ads';
@@ -80,7 +88,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className=""
+      className={poppins.variable}
       suppressHydrationWarning
     >
       <head>

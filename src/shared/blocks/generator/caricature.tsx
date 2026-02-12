@@ -748,8 +748,7 @@ export function CaricatureGenerator({
                           <LazyImage
                             src={style.thumbnailSmall}
                             alt={style.label}
-                            className="h-full w-full object-cover object-top"
-                            wrapperClassName="!block h-full w-full"
+                            className="block h-full w-full object-cover object-top"
                           />
                         </div>
                         <span className={cn(
