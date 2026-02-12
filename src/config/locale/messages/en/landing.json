@@ -43,7 +43,7 @@
   "hero": {
     "id": "hero",
     "title": "ChatGPT Caricature",
-    "description": "The viral ChatGPT Caricature trend — turn any photo into a hilarious cartoon portrait in seconds. Upload your face, pick a style, and create a shareable caricature drawing powered by cutting-edge AI.",
+    "description": "The viral ChatGPT Caricature trend — create a caricature of me from any photo in seconds. Upload your face, pick a style, and get a shareable cartoon portrait powered by cutting-edge AI.",
     "announcement": null,
     "buttons": [
       {
@@ -72,7 +72,7 @@
   "showcases-flow": {
     "id": "showcases-flow",
     "title": "AI Caricature Gallery",
-    "description": "See what our users have created — fun, expressive, and uniquely personal cartoon portraits made with our caricature maker.",
+    "description": "See what our users have created — fun, expressive, and uniquely personal ChatGPT caricature portraits made with our AI cartoon portrait maker.",
     "items": [
       {
         "title": "Showcase 1",
@@ -135,7 +135,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/8.jpeg",
-          "alt": "AI-generated caricature from photo — high-resolution cartoon portrait download"
+          "alt": "AI-generated ChatGPT caricature of me from photo — high-resolution cartoon portrait download"
         }
       },
       {
@@ -143,7 +143,7 @@
         "description": "AI Caricature portrait",
         "image": {
           "src": "/imgs/showcases/9.jpeg",
-          "alt": "Personalized cartoon portrait with hobbies — custom AI caricature generator result"
+          "alt": "Personalized caricature of me with hobbies — custom ChatGPT AI cartoon portrait result"
         }
       },
       {
@@ -164,10 +164,10 @@
     "id": "introduce",
     "title": "What is ChatGPT Caricature?",
     "label": "About",
-    "description": "ChatGPT Caricature is the viral AI art trend sweeping social media in 2026. Users upload a selfie and receive a playful, exaggerated cartoon portrait that highlights their facial features, profession, and personality. Our AI caricature generator makes this even easier — no ChatGPT Plus subscription needed. Simply upload a photo, choose a style, and get your personalized caricature portrait in seconds.",
+    "description": "ChatGPT Caricature is the viral AI art trend sweeping social media in 2026. Users upload a selfie and receive a playful, exaggerated cartoon portrait that highlights their facial features, profession, and personality. Creating a caricature on ChatGPT used to require a Plus subscription and careful prompting — our dedicated ChatGPT caricature generator makes it effortless. Simply upload a photo, choose a style, and create a caricature of me in seconds.",
     "image": {
       "src": "/imgs/showcases/image.webp",
-      "alt": "ChatGPT Caricature example — AI-generated cartoon portrait from selfie photo"
+      "alt": "ChatGPT Caricature of me example — AI-generated cartoon portrait from your selfie"
     },
     "items": [
       {
@@ -268,6 +268,33 @@
           "src": "/example/pop-art-style.webp",
           "alt": "Pop art caricature — Andy Warhol-inspired bold color AI cartoon portrait with halftone"
         }
+      },
+      {
+        "title": "Action Figure",
+        "description": "Turn your ChatGPT caricature into a collectible toy figure in branded packaging — inspired by the viral Pop Mart and Labubu trend.",
+        "icon": "RiBox3Line",
+        "image": {
+          "src": "/example/action-figure-style.webp",
+          "alt": "Action figure caricature style — collectible toy packaging ChatGPT AI cartoon portrait"
+        }
+      },
+      {
+        "title": "Claymation",
+        "description": "Handcrafted clay texture with visible fingerprints — a warm, Wallace & Gromit-inspired cartoon portrait that feels delightfully analog.",
+        "icon": "RiHandHeartLine",
+        "image": {
+          "src": "/example/claymation-style.webp",
+          "alt": "Claymation caricature style — handcrafted clay texture AI cartoon portrait like Wallace and Gromit"
+        }
+      },
+      {
+        "title": "South Park",
+        "description": "The iconic paper-cutout style from South Park — create a caricature of me as a cartoon character in the beloved TV satire universe.",
+        "icon": "RiTvLine",
+        "image": {
+          "src": "/example/tv-satire-southpark-style.webp",
+          "alt": "South Park caricature style — paper cutout TV satire ChatGPT AI cartoon portrait"
+        }
       }
     ]
   },
@@ -275,7 +302,7 @@
     "block": "features-step",
     "id": "howItWorks",
     "title": "How to Create Your AI Caricature Portrait",
-    "description": "Turn any photo into a ChatGPT Caricature in 3 simple steps. No drawing skills required — our AI caricature maker handles everything for you.",
+    "description": "Want to create a ChatGPT caricature of me? Turn any photo into a cartoon portrait in 3 simple steps. No drawing skills required — our AI caricature maker handles everything for you.",
     "items": [
       {
         "title": "Upload Your Photo",
@@ -341,11 +368,11 @@
   },
   "features": {
     "id": "features",
-    "title": "AI Caricature Generator Features",
-    "description": "Everything you need to turn photos into fun, shareable caricature portraits — powered by state-of-the-art AI technology.",
+    "title": "ChatGPT Caricature Generator Features",
+    "description": "Everything you need to create a ChatGPT caricature — turn photos into fun, shareable cartoon portraits powered by state-of-the-art AI technology.",
     "items": [
       {
-        "title": "Advanced AI Caricature Engine",
+        "title": "Advanced ChatGPT Caricature Engine",
         "description": "Powered by cutting-edge image generation models that understand facial features, artistic styles, and the nuances that make caricature drawings fun and recognizable.",
         "icon": "RiMagicLine"
       },
@@ -371,7 +398,7 @@
       },
       {
         "title": "Share-Ready for Social Media",
-        "description": "Your finished caricature is optimized for sharing on Instagram, Twitter/X, TikTok, LinkedIn, and WhatsApp — join the viral caricature trend.",
+        "description": "Your finished caricature is optimized for sharing on Instagram, Twitter/X, TikTok, LinkedIn, and WhatsApp — join the viral ChatGPT caricature trend.",
         "icon": "Layers"
       }
     ]
@@ -384,7 +411,7 @@
   },
   "faq": {
     "id": "faq",
-    "title": "AI Caricature Generator FAQ",
+    "title": "ChatGPT Caricature FAQ",
     "description": "Everything you need to know about creating ChatGPT Caricature portraits.",
     "items": [
       {
@@ -413,7 +440,7 @@
       },
       {
         "question": "How is this different from using ChatGPT directly?",
-        "answer": "Unlike using ChatGPT directly, our tool is purpose-built for caricature creation. You don't need a paid ChatGPT subscription, there's no prompt engineering required, and there are no daily image limits. We also offer 9 specialized caricature styles (including viral trends like Action Figure and South Park), real face recognition from your uploaded photo, and consistent high-quality results every time."
+        "answer": "Creating a caricature on ChatGPT directly requires a paid subscription and careful prompt engineering. Our tool is purpose-built for ChatGPT caricature creation — no subscription needed, no daily image limits, and no guessing with prompts. We also offer 9 specialized caricature styles (including viral trends like Action Figure and South Park), real face recognition from your uploaded photo, and consistent high-quality results every time."
       },
       {
         "question": "Is my photo data safe and private?",
@@ -422,13 +449,17 @@
       {
         "question": "Can I create a 'me and my job' caricature?",
         "answer": "Yes! The Job Caricature style is designed exactly for the viral 'me and my job' trend. Enter your profession and the AI will surround your cartoon portrait with relevant tools, props, and workplace elements that represent your career."
+      },
+      {
+        "question": "How do I create a ChatGPT caricature of me?",
+        "answer": "Creating a ChatGPT caricature of me is simple: upload a clear selfie, pick one of 9 AI caricature styles, and your personalized cartoon portrait is ready in seconds. Unlike making a caricature on ChatGPT directly, our dedicated tool needs no subscription, no prompt engineering, and delivers consistent, high-quality caricature portraits every time."
       }
     ]
   },
   "cta": {
     "id": "cta",
-    "title": "Create Your AI Caricature Portrait Now",
-    "description": "Join the viral trend — turn your photo into a fun, shareable cartoon portrait with our ChatGPT Caricature generator. No design skills needed.",
+    "title": "Create Your ChatGPT Caricature Portrait Now",
+    "description": "Join the viral ChatGPT caricature trend — create a caricature of me from any photo with our AI cartoon portrait generator. No design skills needed, just upload and share.",
     "buttons": [
       {
         "title": "Create Your Caricature",
@@ -446,7 +477,7 @@
     "id": "footer",
     "brand": {
       "title": "ChatGPT Caricature",
-      "description": "The viral AI caricature generator — turn your photos into fun cartoon portraits. Choose from 9 unique styles and create your caricature in seconds.",
+      "description": "The viral ChatGPT caricature generator — create a caricature of me from any photo. Choose from 9 unique AI styles and get your cartoon portrait in seconds.",
       "logo": {
         "src": "/logo.png",
         "alt": "ChatGPT Caricature Generator — AI cartoon portrait maker"

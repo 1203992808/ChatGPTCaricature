@@ -78,7 +78,7 @@ export function Hero({
                   </span>
                 </span>
                 <span className="text-muted-foreground mt-1 block text-lg font-medium tracking-normal sm:text-xl">
-                  AI Cartoon Portrait Generator — 9 Viral Styles
+                  Create a Caricature of Me — 9 Viral AI Styles
                 </span>
               </h1>
             ) : (
