@@ -54,7 +54,7 @@ export function Hero({
         )}
       >
         <div className="relative mx-auto max-w-5xl px-4 text-center">
-          <div style={fadeInStyle(0.15)}>
+          <div>
             {texts && texts.length > 0 ? (
               <h1 className="text-5xl font-extrabold tracking-tight text-balance sm:mt-12 sm:text-7xl">
                 <span className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent dark:from-indigo-400 dark:via-purple-400 dark:to-pink-400">

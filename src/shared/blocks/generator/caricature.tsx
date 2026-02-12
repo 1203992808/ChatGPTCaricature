@@ -1134,6 +1134,8 @@ export function CaricatureGenerator({
                       <LazyImage
                         src="/example/classic-style.webp"
                         alt="Example caricature - Classic style"
+                        width={1024}
+                        height={683}
                         className="h-auto w-full"
                       />
                     </div>
@@ -1141,6 +1143,8 @@ export function CaricatureGenerator({
                       <LazyImage
                         src="/example/3D-cartoon-style.webp"
                         alt="Example caricature - 3D Cartoon style"
+                        width={1024}
+                        height={683}
                         className="h-auto w-full"
                       />
                     </div>
@@ -1149,6 +1153,8 @@ export function CaricatureGenerator({
                         <LazyImage
                           src="/example/image.webp"
                           alt="Example caricature"
+                          width={1024}
+                          height={1024}
                           className="h-auto w-full"
                         />
                       </div>
