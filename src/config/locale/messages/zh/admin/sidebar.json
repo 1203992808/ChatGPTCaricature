@@ -3,7 +3,7 @@
     "brand": {
       "title": "Z Image Turbo",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo.webp",
         "alt": "Z Image Turbo"
       },
       "url": "/admin"

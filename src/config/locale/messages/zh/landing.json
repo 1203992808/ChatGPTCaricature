@@ -4,7 +4,7 @@
     "brand": {
       "title": "Z Image Turbo",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo.webp",
         "alt": "Z Image logo"
       },
       "url": "/"
@@ -502,7 +502,7 @@
       "title": "Z Image Turbo",
       "description": "高速文生图模型，强调速度、写实画质与多语言渲染，适合快速生成高质量图片。",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo.webp",
         "alt": "Z Image Turbo"
       },
       "url": "/"

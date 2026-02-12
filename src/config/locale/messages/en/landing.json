@@ -4,7 +4,7 @@
     "brand": {
       "title": "ChatGPT Caricature",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo.webp",
         "alt": "ChatGPT Caricature Generator — AI cartoon portrait maker logo"
       },
       "url": "/"
@@ -479,7 +479,7 @@
       "title": "ChatGPT Caricature",
       "description": "The viral ChatGPT caricature generator — create a caricature of me from any photo. Choose from 9 unique AI styles and get your cartoon portrait in seconds.",
       "logo": {
-        "src": "/logo.png",
+        "src": "/logo.webp",
         "alt": "ChatGPT Caricature Generator — AI cartoon portrait maker"
       },
       "url": "/"

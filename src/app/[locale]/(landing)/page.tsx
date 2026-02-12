@@ -146,7 +146,7 @@ export default async function LandingPage({
   const orgSchema = buildOrganizationSchema({
     name: 'ChatGPT Caricature',
     url: appUrl,
-    logoUrl: `${appUrl}/logo.png`,
+    logoUrl: `${appUrl}/logo.webp`,
     description:
       'AI-powered caricature generator — turn your photos into fun cartoon portraits.',
     email: 'yzshi123@gmail.com',

@@ -23,7 +23,7 @@ export const envConfigs = {
   app_url: process.env.NEXT_PUBLIC_APP_URL ?? 'https://chatgptcaricature.pro',
   app_name: process.env.NEXT_PUBLIC_APP_NAME ?? 'ChatGPT Caricature',
   app_description: process.env.NEXT_PUBLIC_APP_DESCRIPTION ?? '',
-  app_logo: process.env.NEXT_PUBLIC_APP_LOGO ?? '/logo.png',
+  app_logo: process.env.NEXT_PUBLIC_APP_LOGO ?? '/logo.webp',
   app_preview_image:
     process.env.NEXT_PUBLIC_APP_PREVIEW_IMAGE ?? '/preview.png',
   theme: process.env.NEXT_PUBLIC_THEME ?? 'default',

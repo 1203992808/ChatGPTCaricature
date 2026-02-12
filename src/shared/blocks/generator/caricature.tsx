@@ -746,7 +746,7 @@ export function CaricatureGenerator({
                           selectedStyle.key === style.key && "ring-2 ring-primary/50"
                         )}>
                           <LazyImage
-                            src={style.thumbnail}
+                            src={style.thumbnailSmall}
                             alt={style.label}
                             className="h-full w-full object-cover object-top"
                             wrapperClassName="!block h-full w-full"
