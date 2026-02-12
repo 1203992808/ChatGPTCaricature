@@ -42,7 +42,7 @@ export function Hero({
     <>
       <style
         dangerouslySetInnerHTML={{
-          __html: `@keyframes heroFadeIn{from{opacity:0;transform:translateY(20px);filter:blur(6px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}`,
+          __html: `@keyframes heroFadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}`,
         }}
       />
       <section

@@ -63,8 +63,6 @@ export function ShowcasesFlowDynamic({
       return;
     }
     
-    console.log('ShowcasesFlowDynamic mounted (or updated) with props:', { tags, excludeTags, searchTerm });
-    
     // Set loading state when tags/searchTerm changes
     setLoading(true);
     setShowLoading(false);
@@ -96,7 +94,6 @@ export function ShowcasesFlowDynamic({
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        console.log('Showcases API response:', data);
         if (data.code === 0 && data.data) {
           setItems(data.data);
         } else {
@@ -182,19 +179,20 @@ export function ShowcasesFlowDynamic({
               key={item.id}
               className="group relative cursor-zoom-in break-inside-avoid overflow-hidden rounded-xl"
               onClick={() => setSelectedIndex(index)}
-              initial={{ opacity: 0, y: 30, scale: 0.95 }}
-              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
               transition={{
-                duration: 0.6,
-                delay: index * 0.1,
+                duration: 0.4,
+                delay: Math.min(index * 0.05, 0.4),
                 ease: [0.22, 1, 0.36, 1] as const,
               }}
-              whileHover={{ scale: 1.02 }}
             >
               <LazyImage
                 src={item.image}
                 alt={item.title}
+                width={768}
+                height={512}
                 className="h-auto w-full transition-transform duration-300 group-hover:scale-105"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
               />

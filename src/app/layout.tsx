@@ -95,6 +95,12 @@ export default async function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        {/* Preconnect to critical third-party origins for faster resource loading */}
+        <link rel="preconnect" href="https://img.chatgptcaricature.pro" />
+        <link rel="dns-prefetch" href="https://img.chatgptcaricature.pro" />
+        <link rel="preconnect" href="https://accounts.google.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://accounts.google.com" />
+
         {/* inject locales */}
         {locales ? (
           <>
