@@ -117,3 +117,20 @@ pre {
     @apply bg-background text-foreground;
   }
 }
+
+/* Inlined from react-lazy-load-image-component/src/effects/blur.css
+   to eliminate a separate render-blocking CSS chunk */
+.lazy-load-image-background.blur {
+  filter: blur(15px);
+}
+.lazy-load-image-background.blur.lazy-load-image-loaded {
+  filter: blur(0);
+  transition: filter 0.3s;
+}
+.lazy-load-image-background.blur > img {
+  opacity: 0;
+}
+.lazy-load-image-background.blur.lazy-load-image-loaded > img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}

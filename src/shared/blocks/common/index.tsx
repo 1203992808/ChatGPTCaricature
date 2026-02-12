@@ -18,9 +18,12 @@ export * from './section-header';
 export * from './empty';
 export * from './lazy-image';
 export * from './image-uploader';
-export * from './markdown-preview';
-export * from './markdown-content';
-export * from './markdown-editor';
+// markdown-preview, markdown-content, markdown-editor removed from barrel export
+// to avoid pulling github-markdown-css into every page as render-blocking CSS.
+// Import directly from their files instead:
+//   import { MarkdownPreview } from '@/shared/blocks/common/markdown-preview';
+//   import { MarkdownContent } from '@/shared/blocks/common/markdown-content';
+//   import { MarkdownEditor } from '@/shared/blocks/common/markdown-editor';
 export * from './mdx-content';
 
 export * from '../sign/sign-user';

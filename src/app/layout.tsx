@@ -1,6 +1,5 @@
 import '@/config/style/global.css';
 
-import { Merriweather } from 'next/font/google';
 import { getLocale, setRequestLocale } from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
 
@@ -11,14 +10,6 @@ import { getAdsService } from '@/shared/services/ads';
 import { getAffiliateService } from '@/shared/services/affiliate';
 import { getAnalyticsService } from '@/shared/services/analytics';
 import { getCustomerService } from '@/shared/services/customer_service';
-
-const merriweather = Merriweather({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-serif',
-  display: 'swap',
-  preload: true,
-});
 
 export default async function RootLayout({
   children,
@@ -89,7 +80,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${merriweather.variable}`}
+      className=""
       suppressHydrationWarning
     >
       <head>
